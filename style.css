@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap");
+* {
+  font-family: "Prompt", sans-serif;
+}
+:root {
+  --AppIcon: url(https://www.apple.com/ac/globalnav/6/th_TH/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_apple_image__cxwwnrj0urau_large.svg);
+  --ShopIcon: url(https://www.apple.com/ac/globalnav/6/th_TH/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_bag_image__bmix8075eg4i_small.svg);
+  --SearchIcon: url(https://www.apple.com/ac/globalnav/6/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_search_image__fca9mfoh8a2q_large.svg);
+}
+.nav-link {
+  color: #f5f5f7;
+  font-size: 13px;
+  opacity: 0.8;
+}
+.nav-link:hover {
+  color: #f5f5f7;
+  opacity: 1;
+}
+.nav-link:focus {
+  color: #f5f5f7;
+  opacity: 0.6;
+}
+
+.ap-icon {
+  background-size: 16px 44px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 16px;
+}
+.ap-icon-text {
+  position: absolute;
+  overflow: hidden;
+  height: 1px;
+  width: 1px;
+  padding: 0;
+  border: 0;
+  top: 50%;
+}
+.ap-home {
+  background-image: var(--AppIcon);
+}
+.ap-shop {
+  background-image: var(--ShopIcon);
+}
+.ap-search {
+  background-image: var(--SearchIcon);
+  background-size: 18px 88px;
+  background-position: 0 -5px;
+  width: 30px;
+}
