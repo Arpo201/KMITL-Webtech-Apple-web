@@ -17,9 +17,48 @@ body {
 .pb-6 {
   padding-bottom: 6rem !important;
 }
+.mt-6 {
+  margin-top: 6rem !important;
+}
+.mb-6 {
+  margin-bottom: 6rem !important;
+}
 .bg-black {
   background-color: black;
 }
+
+.screen {
+  left: 4.5%;
+  position: absolute;
+  z-index: -1;
+  top: 2vw;
+  border-radius: 0;
+}
+.image-hardware {
+  background-image: url(https://www.apple.com/v/ipad-pro/ac/images/overview/horizontal_ipad_pro_13_hw__blhsxr6ksmr6_large.png);
+  width: 100%;
+  height: 70vw;
+  background-size: contain;
+  z-index: 2;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.pic-on-screen {
+  width: 92%;
+  height: 66vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.image-overview-camera-cameras-ar-screen {
+  background-image: url(https://www.apple.com/v/ipad-pro/ac/images/overview/camera/cameras_ar_screen__bg8db448nwdu_large.jpg);
+}
+.image-overview-camera-cameras-shoot-screen {
+  background-image: url(https://www.apple.com/th/ipad-pro/images/overview/camera/cameras_shoot_screen__ehtlxb2mglua_large.jpg);
+}
+.image-overview-camera-cameras-depth-screen {
+  background-image: url(https://www.apple.com/th/ipad-pro/images/overview/camera/cameras_depth_screen__gdulmxxryh26_large.jpg);
+}
+
 /* Computer size */
 .advert-text {
   font-size: 5rem;
