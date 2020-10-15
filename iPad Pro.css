@@ -23,6 +23,12 @@ body {
 .mb-6 {
   margin-bottom: 6rem !important;
 }
+.mt-7 {
+  margin-top: 12rem !important;
+}
+.mb-7 {
+  margin-bottom: 12rem !important;
+}
 .bg-black {
   background-color: black;
 }
@@ -126,6 +132,13 @@ body {
   width: 100%;
   border-top: 25px solid #111;
   min-height: 900px;
+}
+.img5 {
+  background-repeat: no-repeat;
+  background-image: url(https://www.apple.com/v/ipad-pro/ac/images/overview/performance_hero_zoomed__geu40zd29066_large.jpg);
+  background-size: 65%;
+  background-position: 130% top;
+  height: 60vw;
 }
 
 /* Telephone size */
