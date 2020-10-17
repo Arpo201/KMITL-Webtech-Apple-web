@@ -10,7 +10,9 @@ body {
 .f-weight-900 {
   font-weight: 900;
 }
-
+.line-h-1 {
+  line-height: 0.1rem;
+}
 .pt-6 {
   padding-top: 6rem !important;
 }
@@ -97,6 +99,9 @@ body {
 .text-md-b1 {
   font-size: 1.8rem;
 }
+.text-sm {
+  font-size: 0.8rem;
+}
 .br-phone {
   display: none;
 }
@@ -180,6 +185,44 @@ body {
   right: 35%;
   z-index: -1;
 }
+.img9 {
+  position: absolute;
+  width: 150%;
+  left: -10%;
+  z-index: -1;
+}
+.img10 {
+  position: absolute;
+  width: 170%;
+  right: -15%;
+  z-index: -1;
+}
+.img11 {
+  background-repeat: no-repeat;
+  background-image: url(https://www.apple.com/v/ipad-pro/ac/images/overview/portability_hero__baahm9lj7w36_large.jpg);
+  background-size: 140%;
+  background-position: 21vw top;
+  height: 40vh;
+}
+.img11-data1 {
+  position: absolute;
+  width: 8%;
+  bottom: 8vw;
+  left: 21.5vw;
+}
+.img11-data2 {
+  position: absolute;
+  width: 15%;
+  bottom: 8vw;
+  left: 40vw;
+}
+.img12 {
+  background-repeat: no-repeat;
+  background-image: url(https://www.apple.com/v/ipad-pro/ac/images/shared/ipad_accessories__c3tmncn6oswi_large.jpg);
+  background-size: 180vw;
+  background-position: -45vw top;
+  height: 100vh;
+}
 
 /* Telephone size */
 @media screen and (max-width: 991px) {
@@ -243,5 +286,30 @@ body {
     position: relative;
     width: 150%;
     right: 50%;
+  }
+  .img9 {
+    position: relative;
+    width: 250%;
+    left: unset;
+    z-index: -1;
+  }
+  .img10 {
+    position: relative;
+    width: 300%;
+    right: 160%;
+  }
+  .img11 {
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/ipad-pro/ac/images/overview/portability_hero__baahm9lj7w36_large.jpg);
+    background-size: 140%;
+    background-position: 21vw top;
+    height: 20vh;
+  }
+  .img12 {
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/ipad-pro/ac/images/shared/ipad_accessories__c3tmncn6oswi_large.jpg);
+    background-size: 180vh;
+    background-position: -65vh top;
+    height: 50vh;
   }
 }
