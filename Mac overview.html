@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mac - Apple (TH)</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -15,6 +15,82 @@
             font-family: 'Prompt', sans-serif;
         }
     </style>
+    <script>
+        function Show(key){
+            let inn = document.getElementById("keycon");
+            let pri = document.getElementById(key);
+            if(pri.value == "1"){
+                let str = "";
+                str += "<p>จัดการกับคลังภาพของคุณที่เติบโตขึ้นทุกวันให้เป็นระเบียบและเข้าถึงได้อย่างง่ายดาย พร้อมเพิ่ม</p>";
+                str += "<p>ความสมบูรณ์แบบให้กับรูปภาพของคุณ หรือสร้างสรรค์ของขวัญอันสวยงามเพื่อแบ่งปันก็ยังได้</p>";
+                str += "<p>นอกจากนี้รูปภาพ iCloud ยังให้คุณเก็บรักษาภาพถ่ายและวิดีโอแห่งความทรงจำทั้งชีวิตของคุณไว้</p>";
+                str += "<p>ในคลาวด์ได้อีกด้วย</p>";
+                str += "<a class='btn btn-link' href='#'>ดูเพิ่มเติมเกี่ยวกับแอพรูปภาพ</a>"
+                str += "<br>";
+                str += "<img src='https://www.apple.com/v/mac/home/au/images/overview/macos/built-in-apps/bia_photos__bz4wyv6xly4i_medium.jpg'>"
+                inn.innerHTML = str;
+            }if(pri.value == "2"){
+                let str = "";
+                str += "<p>บอกเล่าเรื่องราวอย่างที่ไม่เคยทำได้มาก่อน ด้วยการออกแบบที่เรียบง่ายและเครื่องมือตัดต่อที่ใช้</p>";
+                str += "<p>งานง่าย บอกเลยว่าการสร้างภาพยนตร์ที่สวยงามระดับ 4K และตัวอย่างภาพยนตร์สไตล์ฮอลลีวูด</p>";
+                str += "<p>จะกลายเป็นเรื่องสบายๆ สำหรับคุณ</p>";
+                str += "<a class='btn btn-link' href='#'>ดูเพิ่มเติมเกี่ยวกับ iMovie</a>"
+                str += "<br>";
+                str += "<img src='https://www.apple.com/v/mac/home/au/images/overview/macos/built-in-apps/bia_imovie__tgn7fmdpdaa2_medium.jpg'>"
+                inn.innerHTML = str;
+            }if(pri.value == "3"){
+                let str = "";
+                str += "<p>คือวิธีที่ง่ายที่สุดในการสร้างสรรค์งานเพลงดีๆ บน Mac ของคุณเอง ด้วยอินเทอร์เฟซที่ใช้งาน</p>";
+                str += "<p>ง่ายและคลังเสียงที่มีให้เลือกครบครัน ไม่ว่าคุณจะเรียน เล่น บันทึกเสียง หรือแชร์งานเพลงแบบ</p>";
+                str += "<p>มือโปร รับรองเลยว่าคุณจะทำได้ง่ายยิ่งกว่าที่เคย</p>";
+                str += "<a class='btn btn-link' href='#'>ดูเพิ่มเติมเกี่ยวกับ GarageBand</a>"
+                str += "<br>";
+                str += "<img src='https://www.apple.com/v/mac/home/au/images/overview/macos/built-in-apps/bia_garageband__f3adel16i82u_medium.jpg'>"
+                inn.innerHTML = str;
+            }if(pri.value == "4"){
+                let str = "";
+                str += "<p>พบกับแอพประมวลผลคำอันทรงพลังที่มีครบทุกอย่างที่คุณต้องใช้ในการจัดทำเอกสารให้ออกมาดู</p>";
+                str += "<p>สวยงาม ซึ่งการอ่านก็จะเป็นไปอย่างราบรื่นสวยงามไม่แพ้กันอีกด้วย นอกจากนี้ยังช่วยให้คุณ</p>";
+                str += "<p>สามารถทำงานสลับไปมาระหว่าง Mac, อุปกรณ์ iOS และ iPadOS ได้แบบไร้รอยต่อ แถมยัง</p>";
+                str += "<p>ทำงานร่วมกับผู้ที่ใช้ Microsoft Word ได้แบบสบายๆ</p>";
+                str += "<a class='btn btn-link' href='#'>ดูเพิ่มเติมเกี่ยวกับ Pages</a>"
+                str += "<br>";
+                str += "<img src='https://www.apple.com/v/mac/home/au/images/overview/macos/built-in-apps/bia_pages__cw7puif7ii6a_medium.jpg'>"
+                inn.innerHTML = str;
+            }if(pri.value == "5"){
+                let str = "";
+                str += "<p>คุณสามารถสร้างสเปรดชีตที่สลับซับซ้อนด้วยการใส่แผนภูมิแบบอินเทอร์แอ็คทีฟ ตาราง และ</p>";
+                str += "<p>รูปภาพที่สวยงามโดดเด่น ทั้งหมดก็เพื่อให้การนำเสนอข้อมูลของคุณเป็นไปได้อย่างชัดเจน</p>";
+                str += "<p>นอกจากนี้คุณยังสามารถทำงานสลับไปมาระหว่าง Mac, อุปกรณ์ iOS และ iPadOS ได้แบบไร้รอย</p>";
+                str += "<p>ต่อ แถมยังทำงานร่วมกับผู้ที่ใช้ Microsoft Excel ได้แบบสบายๆ</p>";
+                str += "<a class='btn btn-link' href='#'>ดูเพิ่มเติมเกี่ยวกับ Numbers</a>"
+                str += "<br>";
+                str += "<img src='https://www.apple.com/v/mac/home/au/images/overview/macos/built-in-apps/bia_numbers__bwbvcf4j1y4i_medium.jpg'>"
+                inn.innerHTML = str;
+            }if(pri.value == "6"){
+                let str = "";
+                str += "<p>ถ่ายทอดไอเดียของคุณให้มีชีวิตชีวาด้วยงานนำเสนอที่สวยงาม โดยเลือกใช้เครื่องมืออันทรงพลัง</p>";
+                str += "<p>และเอฟเฟ็กต์อันแพรวพราวเพื่อสะกดทุกความสนใจของผู้ชม นอกจากนี้คุณยังสามารถทำงานสลับ</p>";
+                str += "<p>ไปมาระหว่าง Mac, อุปกรณ์ iOS และ iPadOS ได้แบบไร้รอยต่อ แถมยังทำงานร่วมกับผู้ที่ใช้</p>";
+                str += "<p>Microsoft PowerPoint ได้แบบสบายๆ</p>";
+                str += "<a class='btn btn-link' href='#'>ดูเพิ่มเติมเกี่ยวกับ Keynote</a>"
+                str += "<br>";
+                str += "<img src='https://www.apple.com/v/mac/home/au/images/overview/macos/built-in-apps/bia_keynote__bc3vik4sc3n6_medium.jpg'>"
+                inn.innerHTML = str;
+            }if(pri.value == "7"){
+                let str = "";
+                str += "<p>Safari มีคุณสมบัติอันล้ำสมัยที่จะช่วยให้คุณสนุกกับการท่องเว็บยิ่งขึ้น ด้วยหลากหลายวิธียิ่งกว่า</p>";
+                str += "<p>เดิม ทั้งยังมีคุณสมบัติความเป็นส่วนตัวที่มาพร้อมเครื่องที่ช่วยปกป้องข้อมูลและช่วยให้ Mac ของ</p>";
+                str += "<p>คุณปลอดภัย ส่วนหน้าเริ่มต้นที่ได้รับการอัพเดทมาใหม่ก็ช่วยให้คุณบันทึก ค้นหา และแชร์เว็บไซต์ที่</p>";
+                str += "<p>คุณโปรดปรานได้อย่างรวดเร็วและง่ายดาย นอกจากนี้ยังมีคำแนะนำโดย Siri ซึ่งจะแสดงลิงก์ที่คุณ</p>";
+                str += "<p>ได้รับในแอพข้อความ และอีกมากมาย</p>";
+                str += "<a class='btn btn-link' href='#'>ดูเพิ่มเติมเกี่ยวกับ Safari</a>"
+                str += "<br>";
+                str += "<img src='https://www.apple.com/v/mac/home/au/images/overview/macos/built-in-apps/bia_safari__f5wdn5ar3gya_medium.jpg'>"
+                inn.innerHTML = str;
+            }
+        }
+    </script>
 </head>
 <body>
     <nav class="navbar navbar-expand-md bg-dark p-1">
@@ -255,6 +331,66 @@
                     </div>
                     <img class="card-img-bottom" src="https://www.apple.com/v/mac/home/au/images/overview/macos/icloud__fw0hix39d42u_small_2x.jpg">
                 </div>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 5%;">
+            <div class="col-12 text-center">
+                <h1>แอพที่มาพร้อมเครื่อง</h1>
+                <p>Mac ทุกเครื่องมาพร้อมกับเครื่องมืออันทรงพลังเพื่อการทำงานและการสร้างสรรค์ ซึ่งนั่นก็คือแอพต่างๆ</p>
+                <p>ที่จะช่วยให้คุณค้นหา ติดต่อสื่อสาร และทำงานได้อย่างมีประสิทธิภาพมากขึ้น</p>
+            </div>
+        </div> 
+        <div class="row" style="margin-top: 5%;">
+            <div class="col-12 text-center">
+                <nav class="nav justify-content-center">
+                    <div class="nav-item">
+                        <img src="https://www.apple.com/v/mac/home/au/images/overview/macos/built-in-apps/nav_icon_photos__be1o2c9r0tte_large.jpg">
+                        <br>
+                        <button id="no1" onclick="Show('no1')" value="1" class="btn btn-link" style="color: black;">รูปภาพ</button>
+                    </div>
+                    <div class="nav-item">
+                        <img src="https://www.apple.com/v/mac/home/au/images/overview/macos/built-in-apps/nav_icon_imovie__fjbpalydzvau_large.jpg">
+                        <br>
+                        <button id="no2" onclick="Show('no2')" value="2" class="btn btn-link" style="color: black;">iMovie</button>
+                    </div>
+                    <div class="nav-item">
+                        <img src="https://www.apple.com/v/mac/home/au/images/overview/macos/built-in-apps/nav_icon_garageband__db9rqf6lsj42_large.jpg">
+                        <br>
+                        <button id="no3" onclick="Show('no3')" value="3" class="btn btn-link" style="color: black;">GarageBand</button>
+                    </div>
+                    <div class="nav-item">
+                        <img src="https://www.apple.com/v/mac/home/au/images/overview/macos/built-in-apps/nav_icon_pages__cxpqbtzb0ei6_large.jpg">
+                        <br>
+                        <button id="no4" onclick="Show('no4')" value="4" class="btn btn-link" style="color: black;">Pages</button>
+                    </div>
+                    <div class="nav-item">
+                        <img src="https://www.apple.com/v/mac/home/au/images/overview/macos/built-in-apps/nav_icon_numbers__lnkz59st71my_large.jpg">
+                        <br>
+                        <button id="no5" onclick="Show('no5')" value="5" class="btn btn-link" style="color: black;">Numbers</button>
+                    </div>
+                    <div class="nav-item">
+                        <img src="https://www.apple.com/v/mac/home/au/images/overview/macos/built-in-apps/nav_icon_keynote__eh2evx16ovwy_large.jpg">
+                        <br>
+                        <button id="no6" onclick="Show('no6')" value="6" class="btn btn-link" style="color: black;">Keynote</button>
+                    </div>
+                    <div class="nav-item">
+                        <img src="https://www.apple.com/v/mac/home/au/images/overview/macos/built-in-apps/nav_icon_safari__b1g559mlc05e_large.jpg">
+                        <br>
+                        <button id="no7" onclick="Show('no7')" value="7" class="btn btn-link" style="color: black;">Safari</button>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <hr>
+        <div class="row" style="margin-top: 5%;">
+            <div class="col-12 text-center" id="keycon">
+                <p>จัดการกับคลังภาพของคุณที่เติบโตขึ้นทุกวันให้เป็นระเบียบและเข้าถึงได้อย่างง่ายดาย พร้อมเพิ่ม</p>
+                <p>ความสมบูรณ์แบบให้กับรูปภาพของคุณ หรือสร้างสรรค์ของขวัญอันสวยงามเพื่อแบ่งปันก็ยังได้</p>
+                <p>นอกจากนี้รูปภาพ iCloud ยังให้คุณเก็บรักษาภาพถ่ายและวิดีโอแห่งความทรงจำทั้งชีวิตของคุณไว้</p>
+                <p>ในคลาวด์ได้อีกด้วย</p>
+                <a class="btn btn-link" href="#">ดูเพิ่มเติมเกี่ยวกับแอพรูปภาพ</a>
+                <br>
+                <img src="https://www.apple.com/v/mac/home/au/images/overview/macos/built-in-apps/bia_photos__bz4wyv6xly4i_medium.jpg">
             </div>
         </div>
     </div>
