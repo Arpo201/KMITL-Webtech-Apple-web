@@ -17,6 +17,12 @@ body {
 .pb-6 {
   padding-bottom: 6rem !important;
 }
+.pt-7 {
+  padding-top: 12rem !important;
+}
+.pb-7 {
+  padding-bottom: 12rem !important;
+}
 .mt-6 {
   margin-top: 6rem !important;
 }
@@ -91,10 +97,10 @@ body {
 .text-md-b1 {
   font-size: 1.8rem;
 }
-.br-md {
+.br-phone {
   display: none;
 }
-.br-more-md {
+.br-com {
   display: inline;
 }
 .d-com {
@@ -140,13 +146,43 @@ body {
   background-position: 130% top;
   height: 60vw;
 }
+.img6 {
+  background-repeat: no-repeat;
+  background-image: url(https://www.apple.com/v/ipad-pro/ac/images/overview/keyboard/keyboard_angle__gmdgk0ggx9ui_large.jpg);
+  background-size: 95%;
+  background-position: 200% top;
+  height: 60vw;
+}
+.img6-pic-data {
+  position: absolute;
+  width: 10%;
+  bottom: 40%;
+  left: 35%;
+}
+.img7-dark {
+  background-image: url(https://www.apple.com/th/ipad-pro/images/overview/keyboard/keyboard_backlit__3uqnpgxooz6u_large.jpg);
+}
+.img7-light {
+  background-image: url(https://www.apple.com/v/ipad-pro/ac/images/overview/keyboard/keyboard_trackpad__dfqfw23nttme_large.jpg);
+}
+.img7-dark,
+.img7-light {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 0 -40vh;
+  position: relative;
+  height: 90vh;
+}
+.img8 {
+  position: absolute;
+  display: block;
+  width: 100%;
+  right: 35%;
+  z-index: -1;
+}
 
 /* Telephone size */
 @media screen and (max-width: 991px) {
-  /* body {
-    padding-left: 10px;
-    padding-right: 10px;
-  } */
   .advert-text {
     font-size: 2.5rem;
     font-weight: 1000;
@@ -172,10 +208,10 @@ body {
   .text-md-b1 {
     font-size: 1.9rem;
   }
-  .br-md {
+  .br-phone {
     display: inline;
   }
-  .br-more-md {
+  .br-com {
     display: none;
   }
   .d-com {
@@ -191,5 +227,21 @@ body {
     background-size: 300px;
     background-position: center;
     height: 350px;
+  }
+
+  .container-fluid .img6-pic-data {
+    position: absolute;
+    width: 20%;
+    bottom: 35%;
+  }
+  .img7-dark,
+  .img7-light {
+    background-position: 0 -15vh;
+    height: 60vw;
+  }
+  .img8 {
+    position: relative;
+    width: 150%;
+    right: 50%;
   }
 }
