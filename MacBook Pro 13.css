@@ -1,0 +1,189 @@
+body {
+  background-color: #121217;
+  color: #63636e;
+}
+
+.container {
+  max-width: var(--breakpoint-lg);
+}
+
+.f-weight-900 {
+  font-weight: 900;
+}
+.line-h-1 {
+  line-height: 0.1rem;
+}
+.pt-6 {
+  padding-top: 6rem !important;
+}
+.pb-6 {
+  padding-bottom: 6rem !important;
+}
+.pt-7 {
+  padding-top: 12rem !important;
+}
+.pb-7 {
+  padding-bottom: 12rem !important;
+}
+.mt-6 {
+  margin-top: 6rem !important;
+}
+.mb-6 {
+  margin-bottom: 6rem !important;
+}
+.mt-7 {
+  margin-top: 12rem !important;
+}
+.mb-7 {
+  margin-bottom: 12rem !important;
+}
+
+.color-kinds {
+  color: #f2f2ff;
+}
+.color-AAAAB3 {
+  color: #aaaab3;
+}
+.bg-data {
+  background-color: #63636e;
+}
+.bg-greydark {
+  background-color: #17171d;
+}
+.bg-black {
+  background-color: #000;
+}
+.opacity {
+  opacity: 0.35;
+}
+.line-heigh-s {
+  line-height: 1;
+}
+
+/* Computer size */
+.advert-text {
+  font-size: 5rem;
+  font-weight: 1000;
+}
+.text-xl {
+  font-size: 64px;
+}
+.text-lg {
+  font-size: 48px;
+}
+.text-md {
+  font-size: 37px;
+}
+.text-sm {
+  font-size: 22px;
+}
+.text-sm-1 {
+  font-size: 26px;
+}
+.text-data {
+  font-size: 21px;
+}
+.text-data-sm {
+  font-size: 17px;
+}
+.br-phone {
+  display: none;
+}
+.br-com {
+  display: inline;
+}
+.d-com {
+  display: unset;
+}
+.d-phone {
+  display: none;
+}
+.gallery {
+  background-image: url(https://www.apple.com/v/macbook-pro-13/c/images/overview/performance/perf_gallery_hw__bdxj0rf7d3te_large.png);
+  position: relative;
+  z-index: 5;
+  width: 1009px;
+  height: 599px;
+  background-size: 1009px 599px;
+  background-repeat: no-repeat;
+  left: 50%;
+  margin-left: -504.5px;
+}
+.gallery-img {
+  width: 769px;
+  height: 481px;
+  background-size: 769px 481px;
+  background-repeat: no-repeat;
+  background-image: url(https://www.apple.com/v/macbook-pro-13/c/images/overview/performance/perf_gallery_screen_photo__f8lhmvh5ye6i_large.jpg);
+  position: absolute;
+  top: 30px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.scroll-phone button {
+  color: #777777;
+  background-color: transparent;
+  display: inline;
+  border: none;
+  outline: 0;
+  white-space: nowrap;
+}
+.scroll-phone button :hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+.scroll-phone button:focus {
+  color: white;
+  border-bottom: white solid 1px;
+}
+
+/* Telephone size */
+@media screen and (max-width: 991px) {
+  .advert-text {
+    font-size: 2.5rem;
+    font-weight: 1000;
+  }
+
+  .text-xl,
+  .text-lg {
+    font-size: 38px;
+  }
+  .text-md,
+  .text-sm,
+  .text-sm-1 {
+    font-size: 19px;
+  }
+  .text-data {
+    font-size: 17px;
+  }
+  .br-phone {
+    display: inline;
+  }
+  .br-com {
+    display: none;
+  }
+  .d-com {
+    display: none;
+  }
+  .d-phone {
+    display: unset;
+  }
+  .gallery {
+    width: 349px;
+    height: 208px;
+    background-size: 349px 208px;
+    background-image: url(https://www.apple.com/v/macbook-pro-13/c/images/overview/performance/perf_gallery_hw__bdxj0rf7d3te_small_2x.png);
+    width: 100%;
+    margin-left: -50%;
+    background-position: top center;
+  }
+  .gallery-img {
+    width: 265px;
+    height: 166px;
+    background-size: 265px 166px;
+    top: 10px;
+  }
+  .scroll-phone {
+    overflow-y: scroll;
+  }
+}
