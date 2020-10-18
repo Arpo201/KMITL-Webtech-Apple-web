@@ -19,4 +19,5 @@ Home ชิโนะ เสร็จ
 - iPhone 11 Pro
 - iPhone 11
 - iPhone SE
-  Navbar หลัก ไอซ์, Navbar รอง, Footage
+
+Navbar หลัก ไอซ์, Navbar รอง, Footage
