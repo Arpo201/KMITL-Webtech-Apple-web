@@ -7,81 +7,255 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">  
 <title>Ipad-air</title>
     <style>
         body{
-            font-family: 'Prompt', sans-serif; 
+            font-family: 'Prompt', sans-serif;
+            overflow-x: hidden;
         }
-        p,h2{
-            font-size: 40px;
-            font: bold;
+        .container {
+        max-width: var(--breakpoint-lg);
+        }
+        /* before phone */
+        .img-for-air{
+            position: absolute;
+            display: block;
+            width: 45%;
+            right: 30%;
+            z-index: -1;
+        }
+        h2.text-2{
+            color: #0f44a7;
         }
         
+        p.text-0{
+            font-size: 40px;
+            color: #11825b;
+        }
+        p.pete {
+            font-size: 25px;
+        }
+        h2.text-primary{
+            font-size: 5rem;
+        }
+        .text-1{
+            font-size: 2rem;
+        }
         .text-secondary{
-            font-size: 20px;
+            font-size: 30px;
+        }
+        .displaycom{
+            display: unset;
+        }
+        .displayphone{
+            display: none;
+        }
+
+      /* phone */
+        @media screen and (max-width: 991px) {
+        
+        h2.text-2{
+            color: #0f44a7;
+        }
+        p.text-0{
+            font-size: 2.5rem;
+            color: #11825b;
+        }
+        p.pete {
+            font-size: 1.3rem;
+        }
+        h2.text-primary{
+            font-size: 1.8rem;
+            
+        }
+        .text-1{
+            font-size: 1.5rem;
+        }
+        .text-secondary{
+            font-size: 1.9rem;
+        }
+        .displaycom{
+            display: none;
+        }
+        .displayphone{
+            display: unset;
+        }
         }
 
     </style>
 </head>
 <body >
-    <div class="container"> <h1 style="text-align: center;">to be continued</h1>
-        <div class="row">
-            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12" style="text-align: center;">
-                <img src="https://www.apple.com/v/ipad-air/j/images/overview/experience/hero_static__0ypiwymczpu6_medium.jpg" style="margin-left: auto; margin-right: auto; 
-                padding-top: 7cm; padding-bottom: 7cm;" alt="ipad-air">
+    <h1 style="text-align: center;">to be continued</h1>
+    <div class="container"> 
+        <div class="row text-center">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 m-auto">
+                    <img class="img-fluid" src="https://www.apple.com/v/ipad-air/j/images/overview/experience/hero_static__0ypiwymczpu6_medium.jpg" style="margin-left: auto; margin-right: auto; 
+                    padding-top: 7cm; padding-bottom: 7cm;" alt="ipad-air">
+                </div><br>
+            <div class="row m-auto">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 m-auto" >
+                    <p class="text-1">ดีไซน์แบบหน้าจอทั้งหมด<br>พร้อมจอภาพ&nbsp;Liquid Retina<br>ขนาด 10.9 นิ้ว&nbsp;ที่สวยงาม<br>น่าทึ่ง</p> 
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center" >
-                <p>ดีไซน์แบบหน้าจอทั้งหมด<br>พร้อมจอภาพ&nbsp;Liquid Retina<br>ขนาด 10.9 นิ้ว&nbsp;ที่สวยงาม<br>น่าทึ่ง</p> 
+                <div class="row m-auto">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 m-auto" style="text-align: center;">
+                        <img class="img-fluid" src="https://www.apple.com/v/ipad-air/k/images/overview/experience/features_display_static__c2x6fzjig10m_large_2x.jpg" style="width: 100%; margin-left: auto; margin-right: auto;  padding-top: 3cm; padding-bottom: 7cm;"alt="ipad-air">
+                    </div>
+                </div>
+            <div class="row m-auto">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 m-auto"style="text-align: center;">
+                    <img class="img-fluid" src="https://i.imgur.com/jadowGf.png" width="100%" style="margin-left: auto; margin-right: auto;  padding-top: 7cm; padding-bottom: 7cm;"alt="ipad-air">
+                </div>
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 m-auto" style="text-align: center;">
+                    <p class="text-1">พร้อม&nbsp;Touch&nbsp;ID ที่รวดเร็ว<br>ใช้งานง่าย&nbsp;และปลอดภัย</p> 
+                </div>
             </div>
-            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12" style="text-align: center;">
-                <img src="https://i.imgur.com/cSKc3Sd.png" style="margin-left: auto; margin-right: auto;  padding-top: 3cm; padding-bottom: 7cm;"alt="ipad-air">
-            </div>
-        </div>
-              
-        <div class="row">
-            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12"style="text-align: center;">
-                <img src="https://i.imgur.com/jadowGf.png" width="100%" style="margin-left: auto; margin-right: auto;  padding-top: 7cm; padding-bottom: 7cm;"alt="ipad-air">
-            </div>
-            <div  class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12" style="text-align: center;">
-                <p>พร้อม&nbsp;Touch&nbsp;ID ที่รวดเร็ว<br>ใช้งานง่าย&nbsp;และปลอดภัย</p> 
-            </div>
-        </div>
        <!-- A14 -->
-        <div class="row">
-            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12" style="text-align: center;">
-                <img src="https://www.apple.com/v/ipad-air/j/images/overview/experience/chip__gmwx0rqkj0qe_medium_2x.png" style=" margin: auto; padding-top: 7cm; padding-bottom: 2cm;" alt="A14">
-                <p style="padding-bottom: 5cm;">ขับเคลื่อนโดยชิพที่ล้ำหน้าที่<br>สุดเท่าที่เราเคยมีมา<br>A14 Bionic</p>     
+        <div class="row m-auto">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 m-auto">
+                <img class="img-fluid" src="https://www.apple.com/v/ipad-air/j/images/overview/experience/chip__gmwx0rqkj0qe_medium_2x.png" style=" margin: auto; padding-top: 7cm; padding-bottom: 2cm;" alt="A14">
+                <p class="text-1" style="padding-bottom: 5cm;">ขับเคลื่อนโดยชิพที่ล้ำหน้าที่<br>สุดเท่าที่เราเคยมีมา<br>A14 Bionic</p>     
             </div>
         </div> 
         
-        <div  class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12" style="text-align: center;">
-            <img class="img"src="pen.png" alt="pencil">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-                        <p style="position: relative;">และ<img src="https://www.apple.com/th/ipad-air/images/overview/experience/keyboard_static__ny27wb7q98ia_large.png" 
-                            alt="keyboard"><br><p style="font-size: 90px; color: black; font: bold;">Magic<br>Keyboard</p></p> 
+        <div  class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 m-auto" style="text-align: center;">
+            <img class="img-fluid"src="https://i.imgur.com/JkRzfoT.png" alt="pencil">
+                <div class="row m-auto">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12 m-auto">
+                        <p class="text-1" style="position: relative;">และ<img class="img-fluid" src="https://www.apple.com/th/ipad-air/images/overview/experience/keyboard_static__ny27wb7q98ia_large.png" 
+                            alt="keyboard"><br><p style="font-size: 4rem; color: black; font: bold;">Magic<br>Keyboard</p></p> 
                     </div>
             </div>
 
         </div>
         <hr>
-        <div  class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12" style="text-align: center;">
-            <p>&nbsp;มาในสีสกายบลู, เขียว,&nbsp;<br>โรสโกลด์, เงิน และ<br>เทาสเปซเกรย์</p>
-            <img src="https://www.apple.com/v/ipad-air/j/images/overview/experience/color_static__m7o7tvnth0qy_medium.jpg" alt="ipad-air1" style=" padding-top: 4cm; padding-bottom: 7cm;">
+        <div  class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 m-auto" style="text-align: center;">
+            <p class="text-1">&nbsp;มาในสี<span style="color: skyblue ;">สกายบลู</span>, <span style="color: rgb(140, 207, 140);">เขียว</span>,&nbsp;<br><span style="color: rgb(233, 162, 162);">โรสโกลด์</span>
+        , <span style="color: silver;">เงิน </span>และ<br><span style="color: slategray;">เทาสเปซเกรย์</span></p>
+            <img class="img-fluid" src="https://www.apple.com/v/ipad-air/j/images/overview/experience/color_static__m7o7tvnth0qy_medium.jpg" alt="ipad-air1" style=" padding-top: 4cm; padding-bottom: 7cm;">
         </div>
-
-        <h2 class="text-primary" style="font-size: 60px;">ทั้งทรงพลัง <wbr>ทั้งสดใส <br>ทั้งน่ามหัศจรรย์</h2>
-            <P class="text-black-50"style="font-size:x-large;">iPad Air นั้นทำอะไรๆ ได้มากกว่าคอมพิวเตอร์ด้วยวิธีที่เรียบง่าย <br>
-                ยิ่งกว่าและมหัศจรรย์ยิ่งขึ้น และยิ่งมาพร้อมคุณสมบัติและความ<br>สามารถที่เพิ่มขึ้น ไม่บอกก็รู้ว่าอเนกประสงค์ยิ่งกว่าครั้งไหนๆ</P>
-                <a href="#">ดูกิจกรรม ></a> &nbsp;&nbsp;&nbsp; <a href="#">ดูภาพยนตร์ ►</a>
-                <p class="text-secondary" style="padding-bottom: 8cm;">โปรดตรวจสอบวันวางจำหน่ายอีกครั้ง</p>
-        <div class="row">
-            <h2 class="text-primary" style="font-size: 60px;">ครีเอทีฟสตูดิโอ<br>แบบพกพาของคุณ</h2>
-        </div>        
-        
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 m-auto">
+            <h2 class="text-primary">ทั้งทรงพลัง <wbr>ทั้งสดใส <br>ทั้งน่ามหัศจรรย์</h2>
+                <p class="pete text-black-50 overflow-auto">iPad Air นั้นทำอะไรๆ ได้มากกว่าคอมพิวเตอร์ด้วยวิธีที่เรียบง่าย <br>
+                    ยิ่งกว่าและมหัศจรรย์ยิ่งขึ้น และยิ่งมาพร้อมคุณสมบัติและความ<br>สามารถที่เพิ่มขึ้น ไม่บอกก็รู้ว่าอเนกประสงค์ยิ่งกว่าครั้งไหนๆ</P>
+                    <a href="#">ดูกิจกรรม ></a> &nbsp;&nbsp;&nbsp; <a href="#">ดูภาพยนตร์ ►</a>
+                        <p class="text-secondary" style="padding-bottom: 8cm;">โปรดตรวจสอบวันวางจำหน่ายอีกครั้ง</p>
+                    </div>
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 m-auto" style="padding-bottom: 4cm;">
+            <h2 class="text-primary">ครีเอทีฟสตูดิโอ<br>แบบพกพาของคุณ</h2>
+        <p class="pete text-black-50 overflow-auto">
+            เมื่อมีชิพ A14 Bionic ก็เท่ากับว่าคุณมีขุมพลังที่จะทำให้ไอเดียของคุณ
+            กลายเป็นจริงได้ ไม่ว่าจะถ่ายวิดีโอระดับ 4K แล้วตัดต่อได้ทันทีบน iPad Air
+            ใช้ Apple Pencil รุ่นที่ 2 เพื่อระบายสีและเขียนภาพประกอบด้วยฝีแปรง
+            พลิ้วไหว รวมถึงการแรเงาบางๆ1 และด้วยกราฟิกและประสิทธิภาพ
+            การเรียนรู้ของระบบที่ดียิ่งขึ้นของชิพ A14 Bionic คุณก็สามารถปลดล็อค
+            ความเป็นไปได้ใหม่ๆ ในการสร้างสรรค์ ผ่านการปรับแต่งรูปภาพ
+            การสรรค์สร้างเสียงเพลง และอื่นๆ ได้อีกมากมาย</p>
+            <button type="button" class="btn btn-outline-info btn-lg rounded">ดูเพิ่มเติมเกี่ยวกับชิพ A14 Bionic</button>
+        </div>
     </div>
+</div>
+            <div class="container-fluid" style="background-position: right top; background-repeat: no-repeat; 
+            height: 55vw;  background-size: 80%; background-image: url(https://i.imgur.com/3ZurAl3.png);">
+                
+                </div>
+            <div class="container" style="padding-bottom: 2rem;">  
+            <div class="col-xl-12 col-lg-10 col-md-10 col-sm-12 col-12 m-auto"> 
+            <h2 class="text-1 text-danger  ">สมุดโน้ตที่พร้อมจุดประกาย<br>ทุกไอเดียที่ยิ่งใหญ่</h2>
+                    <p class="pete">
+                ด้วย Apple Pencil คุณก็สามารถจดโน้ต จัดระเบียบความคิด ทำเครื่องหมายบนภาพถ่ายหน้าจอ อีเมล และ
+                อีกมากมายได้ง่ายๆ ยิ่งเมื่อมี iPadOS 14 ด้วยแล้ว คุณก็
+                สามารถแปลงภาพสเก็ตช์ของคุณให้เป็นรูปทรง
+                ที่สวยสมบูรณ์แบบได้เลย
+          </p>
+        </div>
+            </div>
+        <div class="container-fluid" style="
+        background-image: url(https://i.imgur.com/2L3RuKg.png);
+        background-position: center;
+        height: 90vw;
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: contain;">
+        </div>
+        <hr>
+    <div class="displaycom">
+        <div class="container-fluid">   
+            <img class="img-for-air" src="https://www.apple.com/v/ipad-air/k/images/overview/use-cases/work_keyboard__dlgyjnz8jg66_large.jpg" alt="Hello world">
+                <div class="container">        
+                    <div class="row">
+                        <div class="col-md-4 ml-auto pt-3">
+                        <p class="text-0"><b>เปลี่ยนงาน<br>
+                            ที่ซับซ้อนให้<br>
+                            กลายเป็นงาน<br>
+                            แสนสนุก</b>
+                        </p>
+                        <p>
+                            ด้วยความอเนกประสงค์อันน่าทึ่งของ iPad Air คุณจึงทำงานด้วยวิธีไหนก็ได้ที่คุณต้องการ 
+                            ไม่ว่าจะใช้ Smart Keyboard Folio หรือติดเข้ากับ Magic Keyboard เพื่อการพิมพ์ที่ตอบสนองได้ฉับไวและแทร็คแพดในตัว1
+                            ซึ่งลงตัวสุดๆ สำหรับ สิ่งที่คุณจำเป็นต้องทำอย่างการส่งอีเมล ไปจนถึงสิ่งที่คุณอยากทำอย่างการเขียนเรื่องสั้น และด้วยแบตเตอรี่ที่ใช้งานได้ตลอดวัน2 
+                            iPad Air ก็พร้อมลุยงานไปด้วยกันกับคุณได้เท่าที่คุณต้องการ
+                        </p>
+                        </div>
+                    </div>
+                </div>
+                <img class="img-fluid" style="width: 10vw; margin-bottom:40%;" src="https://www.apple.com/th/ipad-air/images/snipes/work_snipe_keyboard__esbovthx0pea_medium_2x.png" alt="">
+                <img class="img-fluid" style="width: 10vm;" src="https://i.imgur.com/fNaTkMH.png" alt="">
+                <div class="row m-auto">
+                    <div class="col-md-5 m-auto">
+                       <h2 class="text-2"><b>พร้อมทำงาน
+                        พร้อม<br>เรียน หรือ
+                        พร้อม<br>หน้าพร้อมตา<br>
+                        ก็ยังได้</b></h2>
+                        <p>
+                            <b>iPad Air คือวิธีที่ยอดเยี่ยมในการเชื่อมต่ออยู่เสมอกับ 
+                            ​Wi‑Fi และ LTE* ไม่ว่าจะจัดกลุ่มโทร FaceTime, เข้าร่วมการประชุมทางวิดีโอ 
+                            หรือเริ่มทำงานกลุ่มกับเพื่อนๆ หรือเพื่อนร่วมชั้นเรียนจากที่ไหนก็ได้ ทั้งยังมีกล้องและไมโครโฟนสุดล้ำที่จะช่วยให้ใบหน้าและเสียงมีความคมชัด 
+                            ซึ่ง iPad Air นั้นมาพร้อม Wi‑Fi 6 ที่เร็วสุดๆ และ LTE3 ที่ต่อให้คุณจะไม่มี Wi‑Fi อยู่ใกล้ๆ ก็ยังเชื่อมต่อได้สบายๆ
+                            <b>
+                        </p>
+                    </div>
+                </div>
+        </div>
+    </div>
+<div class="displayphone">
+        <div class="container">
+            <div class="row mt-5 m-auto">
+                <p class="text-0 m-auto"><b>เปลี่ยนงาน
+                    ที่ซับซ้อน<br>
+                    ให้กลายเป็นงาน<br>
+                    แสนสนุก</b>
+                </p>
+                <p>
+                    ด้วยความอเนกประสงค์อันน่าทึ่งของ iPad Air คุณจึงทำงานด้วยวิธีไหนก็ได้ที่คุณต้องการ 
+                    ไม่ว่าจะใช้ Smart Keyboard Folio หรือติดเข้ากับ Magic Keyboard เพื่อการพิมพ์ที่ตอบสนองได้ฉับไวและแทร็คแพดในตัว1
+                    ซึ่งลงตัวสุดๆ สำหรับ สิ่งที่คุณจำเป็นต้องทำอย่างการส่งอีเมล ไปจนถึงสิ่งที่คุณอยากทำอย่างการเขียนเรื่องสั้น และด้วยแบตเตอรี่ที่ใช้งานได้ตลอดวัน2 
+                    iPad Air ก็พร้อมลุยงานไปด้วยกันกับคุณได้เท่าที่คุณต้องการ
+                </p>
+                <div class="col text-center">
+                    <img class="img-fluid" style="width: 30vw;" src="https://www.apple.com/th/ipad-air/images/snipes/work_snipe_keyboard__esbovthx0pea_medium_2x.png" alt="">
+                    <img class="img-fluid" src="https://www.apple.com/th/ipad-air/images/overview/use-cases/work_keyboard__dlgyjnz8jg66_small.jpg" alt="">
+                </div>
+            </div>
+                <img class="img-fluid" style="width: 80%;" src="https://i.imgur.com/fNaTkMH.png" alt="world-edit">
+            <div class="row m-auto">
+                <div class="col-md-5 m-auto">
+                   <h2 class="text-2">พร้อมทำงาน
+                    พร้อม<br>เรียน หรือ
+                    พร้อม<br>หน้าพร้อมตา<br>
+                    ก็ยังได้</h2>
+                    <p><b>
+                        iPad Air คือวิธีที่ยอดเยี่ยมในการเชื่อมต่ออยู่เสมอกับ 
+                        ​Wi‑Fi และ LTE* ไม่ว่าจะจัดกลุ่มโทร FaceTime, เข้าร่วมการประชุมทางวิดีโอ 
+                        หรือเริ่มทำงานกลุ่มกับเพื่อนๆ หรือเพื่อนร่วมชั้นเรียนจากที่ไหนก็ได้ ทั้งยังมีกล้องและไมโครโฟนสุดล้ำที่จะช่วยให้ใบหน้าและเสียงมีความคมชัด 
+                        ซึ่ง iPad Air นั้นมาพร้อม Wi‑Fi 6 ที่เร็วสุดๆ และ LTE3 ที่ต่อให้คุณจะไม่มี Wi‑Fi อยู่ใกล้ๆ ก็ยังเชื่อมต่อได้สบายๆ
+                        <b>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
 </body>
 </html>
