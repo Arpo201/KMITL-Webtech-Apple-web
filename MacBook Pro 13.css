@@ -44,6 +44,12 @@ body {
 .color-AAAAB3 {
   color: #aaaab3;
 }
+.color-body {
+  color: #63636e;
+}
+.bg-body {
+  background-color: #121217;
+}
 .bg-data {
   background-color: #63636e;
 }
@@ -58,6 +64,57 @@ body {
 }
 .line-heigh-s {
   line-height: 1;
+}
+.line-heigh-md {
+  line-height: 1.3;
+}
+.bg-fog {
+  background-image: url(https://www.apple.com/v/macbook-pro-13/c/images/overview/keyboard/keys_trackpad_back_glow__ek482ozmnlsi_large.jpg);
+  background-size: 105%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.grad-text {
+  background: linear-gradient(to right, rgb(129, 71, 223), rgb(166, 112, 211));
+  font-weight: 600;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#cpu-quad-bar {
+  width: 100%;
+  height: 7px;
+  background-image: linear-gradient(
+    to right,
+    rgb(59, 45, 189),
+    rgb(136, 93, 172)
+  );
+}
+#cpu-dual-bar {
+  width: 40%;
+  height: 7px;
+  background-image: linear-gradient(
+    to right,
+    rgb(131, 131, 131),
+    rgb(228, 228, 228)
+  );
+}
+#graphic-bar1 {
+  width: 80%;
+  height: 7px;
+  background-image: linear-gradient(
+    to right,
+    rgb(59, 45, 189),
+    rgb(136, 93, 172)
+  );
+}
+#graphic-bar2 {
+  width: 50%;
+  height: 7px;
+  background-image: linear-gradient(
+    to right,
+    rgb(59, 45, 189),
+    rgb(136, 93, 172)
+  );
 }
 
 /* Computer size */
@@ -75,10 +132,13 @@ body {
   font-size: 37px;
 }
 .text-sm {
-  font-size: 22px;
+  font-size: 23.5px;
 }
 .text-sm-1 {
   font-size: 26px;
+}
+.test-sss {
+  font-size: 15px;
 }
 .text-data {
   font-size: 21px;
@@ -121,20 +181,38 @@ body {
   right: 0;
   margin: auto;
 }
-.scroll-phone button {
+button {
   color: #777777;
   background-color: transparent;
   display: inline;
   border: none;
-  outline: 0;
+  outline: none;
   white-space: nowrap;
 }
-.scroll-phone button :hover {
+button :hover {
   color: rgba(255, 255, 255, 0.6);
 }
-.scroll-phone button:focus {
+button:focus {
   color: white;
+  outline: none;
   border-bottom: white solid 1px;
+}
+.fo-not-underline button {
+  border-bottom: none;
+}
+.fo-not-underline button:focus {
+  border-bottom: none;
+}
+.img-bg-chip {
+  background-image: url(https://www.apple.com/v/macbook-pro-13/c/images/overview/chip/chip_motherboard__cbmirasqheeu_small_2x.png);
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+  width: 500px;
+  height: 500px;
+  right: 20px;
+  bottom: -50px;
 }
 
 /* Telephone size */
@@ -144,9 +222,11 @@ body {
     font-weight: 1000;
   }
 
-  .text-xl,
-  .text-lg {
+  .text-xl {
     font-size: 38px;
+  }
+  .text-lg {
+    font-size: 32px;
   }
   .text-md,
   .text-sm,
@@ -185,5 +265,15 @@ body {
   }
   .scroll-phone {
     overflow-y: scroll;
+  }
+  .img-bg-chip {
+    width: 300px;
+    height: 300px;
+    right: 60px;
+    bottom: -30px;
+  }
+  .chip {
+    width: 50%;
+    opacity: 0.8;
   }
 }
