@@ -1,0 +1,203 @@
+body {
+  background-color: #000;
+  color: #f5f5f7;
+}
+
+.color-grey {
+  color: #a1a1a6;
+}
+.bg-black {
+  background-color: #000;
+}
+.container {
+  max-width: var(--breakpoint-lg);
+}
+.pt-6 {
+  padding-top: 6rem !important;
+}
+.pb-6 {
+  padding-bottom: 6rem !important;
+}
+.pt-7 {
+  padding-top: 12rem !important;
+}
+.pb-7 {
+  padding-bottom: 12rem !important;
+}
+.mt-6 {
+  margin-top: 6rem !important;
+}
+.mb-6 {
+  margin-bottom: 6rem !important;
+}
+.mt-7 {
+  margin-top: 12rem !important;
+}
+.mb-7 {
+  margin-bottom: 12rem !important;
+}
+
+.gradient-text {
+  display: inline-block;
+  width: fit-content;
+  color: transparent;
+  background-image: linear-gradient(to right, #005e7f, #61b6cd);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.gradient-bg {
+  background-image: linear-gradient(to right, #005e7f, #61b6cd);
+}
+.line-height-08 {
+  line-height: 0.8;
+}
+.gradient-black-top {
+  mask-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 40%
+  );
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 40%
+  );
+}
+
+/* Computer size */
+.text-xxl {
+  font-size: 80px;
+}
+.text-xl {
+  font-size: 56px;
+}
+.text-lg {
+  font-size: 32px;
+}
+.text-md-5 {
+  font-size: 24px;
+}
+.text-md {
+  font-size: 21px;
+}
+.text-sm {
+  font-size: 17px;
+}
+.test-sss {
+  font-size: 15px;
+}
+.text-25px {
+  font-size: 25px;
+}
+
+.br-phone {
+  display: none;
+}
+.br-com {
+  display: inline;
+}
+.d-com {
+  display: unset;
+}
+.d-phone {
+  display: none;
+}
+.center-com {
+  text-align: center;
+}
+.right-com {
+  text-align: right;
+}
+
+.img1 {
+  position: relative;
+  background-image: url(https://www.apple.com/th/iphone-12-pro/images/overview/hero/hero_endframe__e24jfrox7nu6_large.jpg);
+  width: 100%;
+  height: 662px;
+  background-size: 1352px 662px;
+  background-position: 20vw;
+  background-repeat: no-repeat;
+}
+.img3 {
+  width: 288px;
+  height: 566px;
+  background-size: 288px 566px;
+  background-repeat: no-repeat;
+  background-image: url(https://www.apple.com/v/iphone-12-pro/a/images/overview/design/design_compare_static__dxh2vl01z1ci_medium.jpg);
+}
+.ex-text1 {
+  font-size: 44px;
+}
+.img4 {
+  width: 100%;
+  height: 990px;
+  background-size: 1008px 990px;
+  background-repeat: no-repeat;
+  background-image: url(https://www.apple.com/v/iphone-12-pro/a/images/overview/design/design_water_resistance__bx3cq2uzbzw2_large.jpg);
+  background-position: top right;
+  position: absolute;
+}
+.chart {
+  background-image: radial-gradient(#619ccdaf, #005d7f09);
+}
+.chart-h {
+  height: 200px;
+}
+
+/* Telephone size */
+@media screen and (max-width: 767px) {
+  .text-xxl {
+    font-size: 48px;
+  }
+  .text-xl {
+    font-size: 32px;
+  }
+  .text-lg {
+    font-size: 28px;
+  }
+  .text-md-5 {
+    font-size: 21px;
+  }
+  .text-md {
+    font-size: 17px;
+  }
+  .text-sm {
+    font-size: 14px;
+  }
+  .br-phone {
+    display: inline;
+  }
+  .br-com {
+    display: none;
+  }
+  .d-com {
+    display: none;
+  }
+  .d-phone {
+    display: unset;
+  }
+  .center-com {
+    text-align: left;
+  }
+  .right-com {
+    text-align: left;
+  }
+  .img1 {
+    background-image: url(https://www.apple.com/th/iphone-12-pro/images/overview/hero/hero_endframe__e24jfrox7nu6_small_2x.jpg);
+    width: 100%;
+    height: 662px;
+    background-size: 600px;
+    background-position: center;
+  }
+  .ex-text1 {
+    font-size: 32px;
+  }
+  .img4 {
+    height: 643px;
+    background-size: 662px 643px;
+    background-position: top left;
+  }
+  .chart-h {
+    height: 180px;
+  }
+}
