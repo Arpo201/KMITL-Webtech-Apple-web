@@ -9,6 +9,8 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">  
 <title>Ipad-air</title>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <style>
         body{
             font-family: 'Prompt', sans-serif;
@@ -44,9 +46,9 @@
             font-size: 3rem;
         }
         .text-1{
-            font-size: 2rem;
+            font-size: 2.5rem;
         }
-        .text-secondary{
+        .text-pp{
             font-size: 30px;
         }
         .displaycom{
@@ -59,10 +61,20 @@
             padding-top: 20rem;
             margin-top: 20rem; 
         }
-
+        .br-phone {
+        display: none;
+        }
+        .br-com {
+        display: inline;
+        }
       /* phone */
         @media screen and (max-width: 991px) {
-        
+        .br-phone {
+            display: inline;
+        }
+        .br-com {
+        display: none;
+        }
         h2.text-2{
             font-size: 40px;
             color: #0f44a7;
@@ -81,7 +93,7 @@
         .text-1{
             font-size: 1.6rem;
         }
-        .text-secondary{
+        .text-pp{
             font-size: 1.9rem;
         }
         .displaycom{
@@ -117,17 +129,23 @@
                     <img class="img-fluid" src="https://i.imgur.com/jadowGf.png" width="100%" style="margin-left: auto; margin-right: auto;  padding-top: 7cm; padding-bottom: 7cm;"alt="ipad-air">
                 </div>
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 m-auto" style="text-align: center;">
-                    <p class="text-1">พร้อม&nbsp;Touch&nbsp;ID ที่รวดเร็ว<br>ใช้งานง่าย&nbsp;และปลอดภัย</p> 
+                    <h1><b>พร้อม&nbsp;Touch&nbsp;ID ที่รวดเร็ว<br>ใช้งานง่าย&nbsp;และปลอดภัย</b></h1> 
                 </div>
             </div>
        <!-- A14 -->
         <div class="row m-auto">
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 m-auto">
                 <img class="img-fluid" src="https://www.apple.com/v/ipad-air/j/images/overview/experience/chip__gmwx0rqkj0qe_medium_2x.png" style=" margin: auto; padding-top: 7cm; padding-bottom: 2cm;" alt="A14">
-                <p class="text-1" style="padding-bottom: 5cm;">ขับเคลื่อนโดยชิพที่ล้ำหน้าที่<br>สุดเท่าที่เราเคยมีมา<br>A14 Bionic</p>     
+                <p class="text-1" style="background-image: url(https://www.apple.com/v/ipad-air/k/images/overview/experience/chip_headline_bg__gk0kf7xhem62_large.jpg); 
+                background-clip: text;
+                -webkit-background-clip: text;
+                background-repeat: no-repeat;
+                color: transparent;
+                padding-bottom: 5cm;">
+                ขับเคลื่อนโดยชิพที่ล้ำหน้าที่<br>สุดเท่าที่เราเคยมีมา<br>A14 Bionic
+            </p>     
             </div>
         </div> 
-        
         <div  class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 m-auto" style="text-align: center;">
             <img class="img-fluid"src="https://i.imgur.com/JkRzfoT.png" alt="pencil">
                 <div class="row m-auto">
@@ -149,7 +167,7 @@
                 <p class="pete text-black-50 overflow-auto">iPad Air นั้นทำอะไรๆ ได้มากกว่าคอมพิวเตอร์ด้วยวิธีที่เรียบง่าย <br>
                     ยิ่งกว่าและมหัศจรรย์ยิ่งขึ้น และยิ่งมาพร้อมคุณสมบัติและความ<br>สามารถที่เพิ่มขึ้น ไม่บอกก็รู้ว่าอเนกประสงค์ยิ่งกว่าครั้งไหนๆ</P>
                     <a href="#">ดูกิจกรรม ></a> &nbsp;&nbsp;&nbsp; <a href="#">ดูภาพยนตร์ ►</a>
-                        <p class="text-secondary" style="padding-bottom: 8cm;">โปรดตรวจสอบวันวางจำหน่ายอีกครั้ง</p>
+                        <p class="text-pp text-secondary" style="padding-bottom: 8cm;">โปรดตรวจสอบวันวางจำหน่ายอีกครั้ง</p>
                     </div>
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 m-auto" style="padding-bottom: 4cm;">
             <h2 class="text-primary">ครีเอทีฟสตูดิโอ<br>แบบพกพาของคุณ</h2>
@@ -191,7 +209,7 @@
         <hr>
         <!-- สีเขียว คอม -->
     <div class="displaycom">
-        <div class="container">   
+        <div class="container position-relative">   
             <img class="img-fluid img-for-air" src="https://i.imgur.com/7IEpepE.png" alt="ipad_withkeyborad">
                 <div class="container">        
                     <div class="row">
@@ -210,7 +228,7 @@
                         </div>
                     </div>
                 </div>
-                <img class="img-fluid position-absolute" style="left: 15%;" src="https://i.imgur.com/fNaTkMH.png" alt="ipad-green"> 
+                <img class="img-fluid position-absolute" style="width: 40%; left: 5%; top:60%;" src="https://i.imgur.com/fNaTkMH.png" alt="ipad-green"> 
         </div>
         
     </div>
@@ -253,7 +271,7 @@
                         ซึ่ง iPad Air นั้นมาพร้อม Wi‑Fi 6 ที่เร็วสุดๆ และ LTE3 ที่ต่อให้คุณจะไม่มี Wi‑Fi อยู่ใกล้ๆ ก็ยังเชื่อมต่อได้สบายๆ</b>
                         </p>
                 </div>
-                <div class="col-10">
+                <div class="col-10 position-relative">
                     <img class="img-fluid" style="position: absolute; left: 30%;" src="https://i.imgur.com/OxGwur8.png" alt="ipad-sliver">
                     <img class="img-fluid" style="position: absolute;" src="https://i.imgur.com/hKZ2Z6K.png" alt="face-time">
                     
@@ -509,7 +527,7 @@
                     <a href="#">ค้นพบแอพสำหรับ iPad ></a>
                 </div>
                 <div class="col-md-8 mt-5" style="background-color: #f5f5f7; border-radius: 20px;">
-                    <h1>USB‑C สำหรับเชื่อมต่อกับกล้อง จอภาพ และอีกมากมายได้อย่างรวดเร็ว</h1>
+                    <h1 style="margin: 8%;" >USB‑C สำหรับเชื่อมต่อกับกล้อง จอภาพ และอีกมากมายได้อย่างรวดเร็ว</h1>
                     <img class="img-fluid" src="https://www.apple.com/th/ipad-air/images/overview/even-more/usbc__f16d5rywcyq2_large.jpg" alt="">
                 </div>
             </div>
@@ -570,9 +588,257 @@
             </div>
         </div>
     </div>
+    <!-- แถว เจ็ดใน คอม -->
+    <div class="displaycom">
+        <div class="container mt-5">
+            <div class="row m-auto">
+                <div class="col-md-12"  style="background-color:#f5f5f7; border-radius: 20px;">
+                    <h2 style="margin: 3%;"><b>มาในสีเงิน, เทาสเปซเกรย์, โรสโกลด์,<br> เขียว และสกายบลู</b></h2>
+                    <img class="img-fluid" style="margin-left: 15%;" src="https://www.apple.com/v/ipad-air/k/images/overview/even-more/colors__f6h84lfl7riq_large.jpg" alt="ipad_5_color">
+                </div>
+            </div>
+        </div>
+    </div>
+     <!-- แถว เจ็ดใน โทร -->
+     <div class="displayphone">
+        <div class="container mt-5">
+            <div class="row m-auto">
+                <div class="col-12" style="background-color:#f5f5f7; border-radius: 20px;">
+                    <h2 style="margin: 3%;"><b>มาในสีเงิน, เทาสเปซเกรย์, โรสโกลด์,<br> เขียว และสกายบลู</b></h2>
+                    <img class="img-fluid" src="https://www.apple.com/v/ipad-air/k/images/overview/even-more/colors__f6h84lfl7riq_large.jpg" alt="ipad_5_color">
+                </div>
+            </div>
+        </div>
+     </div>
+     <!-- แถว แปดใน คอม -->
+     <div class="displaycom">
+         <div class="container-fluid mt-5" style="background-color:#f5f5f7;">
+             <div class="row m-auto">
+                <div class="col-md-12 position-relative">
+                    <img class="img-fluid position-absolute" src="https://www.apple.com/v/ipad-air/k/images/overview/routers/ar_icon__gmxqsmn4eg66_medium.png" alt="">
+                    <h2 style="margin-top: 5%; margin-left: 5%;"><b>ใช้ AR เพื่อทดลองดู iPad Air ใหม่ และ Magic Keyboard</h2></b> <br><p class="text-secondary" style="margin-left: 5%;"> เปิดหน้านี้โดยใช้ Safari บน iPhone หรือ iPad ของคุณ</p>
+                    <img class="img-fluid position-relative" style="left: 50%;" src="https://www.apple.com/th/ipad-air/images/overview/routers/ar_ipad_air__dlrg5loy7es2_medium.jpg" alt="">
+                </div>
+             </div>
+         </div>
+     </div>
+     <!-- แถว แปดใน โทร -->
+     <div class="displayphone">
+        <div class="container-fluid mt-5"  style="background-color:#f5f5f7;">
+            <div class="row m-auto">
+                <div class="col-12">
+                    <img class="img-fluid position-relative" style="top: 5%; left: 5%;" src="https://www.apple.com/v/ipad-air/k/images/overview/routers/ar_icon__gmxqsmn4eg66_medium.png" alt="">
+                    <h2 style="margin-top: 15%; margin-left: 10%;"><b>ใช้ AR เพื่อทดลองดู iPad Air ใหม่ และ Magic Keyboard</h2></b> <br><p class="text-secondary" style="margin-left: 5%;"> เปิดหน้านี้โดยใช้ Safari บน iPhone หรือ iPad ของคุณ</p>
+                    <img class="img-fluid" src="https://www.apple.com/th/ipad-air/images/overview/routers/ar_ipad_air__dlrg5loy7es2_medium.jpg" alt="">
+                </div>
+            </div>
+        </div>
+     </div>
+     <!-- แถว เก้า คอม -->
+     <div class="displaycom">
+        <div class="container mt-5">
+            <div class="row m-auto">
+                <div class="col-md-6">
+                    <img class="img-fluid" src="https://www.apple.com/v/ipad-air/k/images/overview/routers/privacy_icon__e1faylpkt6c2_medium.png" alt="">
+                    <h2><b>ความเป็นส่วนตัว</b></h2> <p style=" margin-top: 5%;font-size:20px;"> iPad Air ได้รับการออกแบบโดยคำนึงถึง
+                        ความเป็นส่วนตัวและความปลอดภัยของคุณ
+                        เป็นสำคัญเช่นเดียวกับผลิตภัณฑ์ Apple ทุกชิ้น ซึ่งบางครั้งก็ไม่ใช่เรื่องง่ายเลย แต่นี่แหละ
+                        คือนวัตกรรมในแบบที่เราเชื่อมั่น </p> <br> <a href="#">ดูเพิ่มเติมเกี่ยวกับแนวทาง
+                            ด้านความเป็นส่วนตัวของเรา ></a>
+                </div>
+                <div class="col-md-6">
+                    <img class="img-fluid" src="https://www.apple.com/v/ipad-air/k/images/overview/routers/accessibility_icon__fmbve1689nau_large.png" alt="">
+                    <h2><b>การช่วยการเข้าถึง</b></h2>  <p style=" margin-top: 5%; font-size:20px;"> เทคโนโลยีจะทรงพลังที่สุดก็ต่อเมื่อทุกคนสามารถใช้เทคโนโลยีนั้นได้ นั่นคือเหตุผล
+                        ที่ iPad Air มาพร้อมคุณสมบัติ "การช่วย
+                        การเข้าถึง" ต่างๆ เพื่อรองรับความต้องการด้านการมองเห็น การได้ยิน การเคลื่อนไหว
+                        และการเรียนรู้</p> <br> <a href="#">ดูคุณสมบัติ "การช่วยการเข้าถึง"
+                            ทั้งหมดบน iPad ></a>
+                </div>
+            </div>
+        </div>
+     </div>
+     <!-- แถว เก้า โทร -->
+     <div class="displayphone">
+        <div class="container mt-5">
+            <div class="row m-auto">
+                <div class="col-12 mt-5 text-center">
+                    <img class="img-fluid" src="https://www.apple.com/v/ipad-air/k/images/overview/routers/privacy_icon__e1faylpkt6c2_medium.png" alt="">
+                    <h2><b>ความเป็นส่วนตัว</b></h2> <p style=" margin-top: 5%;font-size:20px;"> iPad Air ได้รับการออกแบบโดยคำนึงถึง
+                        ความเป็นส่วนตัวและความปลอดภัยของคุณ
+                        เป็นสำคัญเช่นเดียวกับผลิตภัณฑ์ Apple ทุกชิ้น ซึ่งบางครั้งก็ไม่ใช่เรื่องง่ายเลย แต่นี่แหละ
+                        คือนวัตกรรมในแบบที่เราเชื่อมั่น </p> <br> <a style="font-size:10px;" href="#">ดูเพิ่มเติมเกี่ยวกับแนวทาง
+                            ด้านความเป็นส่วนตัวของเรา ></a>
+                </div>
+                <div class="col-12 mt-5 text-center">
+                    <img class="img-fluid" src="https://www.apple.com/v/ipad-air/k/images/overview/routers/accessibility_icon__fmbve1689nau_large.png" alt="">
+                    <h2><b>การช่วยการเข้าถึง</b></h2>  <p style=" margin-top: 5%; font-size:20px;"> เทคโนโลยีจะทรงพลังที่สุดก็ต่อเมื่อทุกคนสามารถใช้เทคโนโลยีนั้นได้ นั่นคือเหตุผล
+                        ที่ iPad Air มาพร้อมคุณสมบัติ "การช่วย
+                        การเข้าถึง" ต่างๆ เพื่อรองรับความต้องการด้านการมองเห็น การได้ยิน การเคลื่อนไหว
+                        และการเรียนรู้</p> <br> <a style="font-size:10px;" href="#">ดูคุณสมบัติ "การช่วยการเข้าถึง"
+                            ทั้งหมดบน iPad ></a>
+                </div>
+            </div>
+        </div>
+     </div>
+     <!-- แถวที่สิบ คอม-->
+     <div class="displaycom">
+        <div class="container-fluid mt-5" style="background-color: #e8f5e4;">
+            <div class="row m-auto">
+                <div class="col-md-5 mt-5 text-center">
+                    <img style="margin-left: 50%;" src="https://www.apple.com/v/ipad-air/k/images/overview/routers/environment__enzwa9uc1qgm_large.jpg" alt="">
+                </div>
+                <div class="col-md-7">
+                    <h2 style="margin-top: 5%;"><b>สิ่งแวดล้อม</b></h2><br>
+                    <p style="margin-right: 50%;">เรารับผิดชอบต่อผลกระทบด้านสิ่งแวดล้อม
+                        ที่เกิดจากผลิตภัณฑ์ของเราตลอดทั้งวงจร
+                        ชีวิตของผลิตภัณฑ์ ซึ่ง iPad Air นั้นมาพร้อมตัวเครื่องที่ทำจากอะลูมิเนียมรีไซเคิล 100% ใช้ดีบุกรีไซเคิล 100% ในการบัดกรีแผงวงจรหลัก ใช้แร่โลหะหายากที่ผ่านการรีไซเคิล 100% ในลำโพง และเยื่อไม้ในบรรจุภัณฑ์ทั้งหมดมาจากการรีไซเคิล หรือมาจากป่าที่ได้รับการจัดการ
+                        อย่างรับผิดชอบ</p> <a href="#">ดูเพิ่มเติม ></a> 
+                </div>
+            </div>
+        </div>
+     </div>
+     <!-- แถวที่สิบ โทร-->
+     <div class="displayphone">
+        <div class="container-fluid mt-5" style="background-color: #e8f5e4;">
+            <div class="row m-auto">
+                <div class="col-12 text-center">
+                    <h2 style="margin-top: 5%;"><b>สิ่งแวดล้อม</b></h2><br>
+                    <p>เรารับผิดชอบต่อผลกระทบด้านสิ่งแวดล้อม
+                        ที่เกิดจากผลิตภัณฑ์ของเราตลอดทั้งวงจร
+                        ชีวิตของผลิตภัณฑ์ ซึ่ง iPad Air นั้นมาพร้อมตัวเครื่องที่ทำจากอะลูมิเนียมรีไซเคิล 100% ใช้ดีบุกรีไซเคิล 100% ในการบัดกรีแผงวงจรหลัก ใช้แร่โลหะหายากที่ผ่านการรีไซเคิล 100% ในลำโพง และเยื่อไม้ในบรรจุภัณฑ์ทั้งหมดมาจากการรีไซเคิล หรือมาจากป่าที่ได้รับการจัดการ
+                        อย่างรับผิดชอบ</p> <a href="#">ดูเพิ่มเติม ></a> 
+                        <img style="width: 100%;" src="https://www.apple.com/v/ipad-air/k/images/overview/routers/environment__enzwa9uc1qgm_large.jpg" alt="">
+                </div>
+            </div>
+        </div>
+     </div>
+    <!-- แถวที่สิบเอ็ดคอม -->
+    <div class="displaycom">
+        <div class="container">
+            <div class="row m-auto">
+                <div class="col-md-4">
+                    <h2 style="margin-top: 20%;"><b>อุปกรณ์เสริม</b></h2> <p>ดูคีย์บอร์ด, เคส, ปก, Apple Pencil, AirPods และอีกมากมาย</p>
+                    <a href="#">เลือกซื้ออุปกรณ์เสริมสำหรับ iPad ></a>
+                </div>
+                <div class="col-md-7">
+                    <img src="https://www.apple.com/v/ipad-air/k/images/shared/accessories__ew0wbe0hfj42_large.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- แถวที่สิบเอ็ดโทร -->
+    <div class="displayphone">
+        <div class="container-fluid">
+            <div class="row m-auto">
+                <div class="col-12 text-center">
+                    <img class="img-fluid" src="https://www.apple.com/th/ipad-air/images/shared/accessories_top__f88j0pc2mpqy_small_2x.jpg" alt="">
+                    <h2 style="margin-top: 20%;"><b>อุปกรณ์เสริม</b></h2> <p>ดูคีย์บอร์ด, เคส, ปก, Apple Pencil, AirPods และอีกมากมาย</p>
+                    <a href="#">เลือกซื้ออุปกรณ์เสริมสำหรับ iPad ></a>
+                    <img class="img-fluid" src="https://www.apple.com/th/ipad-air/images/shared/accessories_bottom__deqw4vnuyf2a_small_2x.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- แถวที่ สิบสองคอม-->
+    <div class="displaycom">
+        <div class="container-fluid"  style="background-color:#f5f5f7; ">
+            <div class="row m-auto" >
+                <div class="col-md-12 pb-5 pt-5 text-center" style="margin-top: 5%; margin-bottom: 5%;">
+                    <h1 style="margin-top: 5%;"><b>รับเครดิตมูลค่าสูงสุด ฿3,500<br>
+                    สำหรับใช้ซื้อ iPad Air เครื่องใหม่</b></h1> 
+                    <p class="pete text-secondary">ด้วย Apple Trade In เพียงคุณนำ iPad ที่มีคุณสมบัติเข้าเกณฑ์มาให้เรา<br>
+                    ก็รับเครดิตสำหรับใช้ซื้อเครื่องใหม่ได้เลย เรียกว่าทั้งดีต่อคุณและดีต่อโลกใบนี้**
+                    </p> <a href="#">ตรวจสอบมูลค่าของอุปกรณ์ที่จะแลก ></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- แถวที่สิบสองโทร -->
+    <div class="displayphone">
+        <div class="container-fluid" style="background-color:#f5f5f7;">
+            <div class="row m-auto">
+                <div class="col-12 text-center">
+                    <h1 style="margin: 5%;"><b>รับเครดิตมูลค่าสูงสุด ฿3,500<br>
+                        สำหรับใช้ซื้อ iPad Air เครื่องใหม่</b></h1> 
+                        <p class="pete text-secondary">ด้วย Apple Trade In เพียงคุณนำ iPad ที่มีคุณสมบัติเข้าเกณฑ์มาให้เรา<br>
+                        ก็รับเครดิตสำหรับใช้ซื้อเครื่องใหม่ได้เลย เรียกว่าทั้งดีต่อคุณและดีต่อโลกใบนี้**
+                        </p><a href="#">ตรวจสอบมูลค่าของอุปกรณ์ที่จะแลก ></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- แถวที่ สิบสาม-->
+    <div class="container-fluid bg-light pt-5 pb-6">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center mt-5 pb-5">
+                    <h1 style="line-height: 1.2;" class="text-xl">
+                        <b>
+                            หา iPad ที่เหมาะ<br class="br-phone">สำหรับคุณ
+                        </b>
+                    </h1>
+                    <a href="#">เปรียบเทียบ iPad รุ่นต่างๆ ></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 text-center">
+                    <img class="img-fluid pb-5" src="https://www.apple.com/v/ipad/shared/compare/f/images/overview/compare_ipad_pro__cem3343k309y_large.png" alt="">
+                    <h5><b>iPad Pro</b></h5>
+                    <p>
+                        ที่สุดแห่งประสบการณ์<br>
+                        ของ iPad
+                    </p><br>
+                    <p class="text-sm line-h-1">
+                        เริ่มต้นที่ ฿27,900
+                    </p>
+                    <button class="btn btn-primary rounded-right text-sm pl-3 pr-3 pt-0 pb-0">ซื้อ</button>
+                </div>
+                <div class="col-md-3 text-center">
+                    <img class="img-fluid pt-4 pb-5" src="https://www.apple.com/v/ipad/shared/compare/f/images/overview/compare_ipad_air__k3jarkxrthua_large.png" alt="">
+                    <div class="pt-1"></div>
+                    <h5><b>iPad Air</b></h5>
+                    <p>
+                        ทั้งทรงพลัง ทั้งสดใส<br>
+                        ทั้งน่ามหัศจรรย์
+                    </p><br>
+                    <p class="text-sm line-h-1">
+                        เริ่มต้นที่ ฿19,900
+                    </p>
+                    <button class="btn btn-primary rounded-right text-sm pl-3 pr-3 pt-0 pb-0">ซื้อ</button>
+                </div>
+                <div class="col-md-3 text-center">
+                    <img class="img-fluid pt-4 pb-5" src="https://www.apple.com/v/ipad/shared/compare/f/images/overview/compare_ipad_10_2__djf3y13uq18i_large.png" alt="">
+                    <h5><b>iPad</b></h5>
+                    <p>
+                        ความสามารถเกินคาด<br>
+                        ในราคาคาดไม่ถึง
+                    </p><br>
+                    <p class="text-sm line-h-1">
+                        เริ่มต้นที่ ฿10,900
+                    </p>
+                    <button class="btn btn-primary rounded-right text-sm pl-3 pr-3 pt-0 pb-0">ซื้อ</button>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="pt-2"></div>
+                    <div class="pt-1"></div>
+                    <img class="img-fluid pt-5 pb-5" src="https://www.apple.com/v/ipad/shared/compare/f/images/overview/compare_ipad_mini__bjyiw12hcxyq_large.png" alt="">
+                    <h5><b>iPad mini</b></h5>
+                    <p>
+                        เล็กที่ขนาด<br>
+                        ยิ่งใหญ่ที่ความสามารถ
+                    </p><br>
+                    <p class="text-sm line-h-1">
+                        เริ่มต้นที่ ฿13,900
+                    </p>
+                    <button class="btn btn-primary rounded-right text-sm pl-3 pr-3 pt-0 pb-0">ซื้อ</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- ดูขนาด -->
-    <!-- <div style="height: 1000px;
-        width: 1000px;">
-    </div> -->
+    <div style="height: 500px;">
+    </div>
 </body>
 </html>
+
+
