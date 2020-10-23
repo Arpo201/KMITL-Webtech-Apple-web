@@ -6,17 +6,17 @@ Home ชิโนะ เสร็จ
 
 - MacBook Air ชิโนะ
 - MacBook Pro รุ่น 13” อาโป เสร็จ (no animation)
-- iMac
+- iMac ผีท
 
 ## iPad เทพปิง เสร็จ
 
 - iPad Pro อาโป เสร็จ (no animation)
-- iPad Air พีท
+- iPad Air พีท เสร็จ
 - iPad ไอซ์
 
-## iPhone
+## iPhone เทพปิง กำลังทำนะจ๊ะ
 
-- iPhone 11 Pro อาโป
+- iPhone 11 Pro อาโป กำลังทำ
 - iPhone 11
 - iPhone SE
 
