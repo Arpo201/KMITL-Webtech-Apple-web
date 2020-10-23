@@ -37,7 +37,7 @@ body {
   margin-bottom: 12rem !important;
 }
 
-.gradient-text {
+.text-gradient {
   display: inline-block;
   width: fit-content;
   color: transparent;
@@ -64,6 +64,20 @@ body {
   );
 }
 
+#camera2 {
+  color: #1d1d1f;
+  background-color: var(--light);
+  border: none;
+  outline: 0;
+}
+#camera1,
+#camera3 {
+  color: #a1a1a6;
+  background-color: #1d1d1f;
+  border: none;
+  outline: 0;
+}
+
 /* Computer size */
 .text-xxl {
   font-size: 80px;
@@ -88,6 +102,15 @@ body {
 }
 .text-25px {
   font-size: 25px;
+}
+.text-28px {
+  font-size: 28px;
+}
+.text-19px {
+  font-size: 19px;
+}
+.text-79px {
+  font-size: 79px;
 }
 
 .br-phone {
@@ -143,10 +166,21 @@ body {
 .chart-h {
   height: 200px;
 }
+.line-h-1 {
+  line-height: 1.1;
+}
+video {
+  width: 100%;
+  height: 100%;
+}
+.XDR-box-p {
+  padding: 40px 60px 66px;
+}
 
 /* Telephone size */
 @media screen and (max-width: 767px) {
-  .text-xxl {
+  .text-xxl,
+  .text-79px {
     font-size: 48px;
   }
   .text-xl {
@@ -163,6 +197,12 @@ body {
   }
   .text-sm {
     font-size: 14px;
+  }
+  .text-28px {
+    font-size: 24px;
+  }
+  .text-19px {
+    font-size: 12px;
   }
   .br-phone {
     display: inline;
@@ -199,5 +239,8 @@ body {
   }
   .chart-h {
     height: 180px;
+  }
+  .XDR-box-p {
+    padding: 16px 28px 40px;
   }
 }
