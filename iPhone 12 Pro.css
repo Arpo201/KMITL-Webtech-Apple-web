@@ -81,6 +81,9 @@ a:hover {
   border: none;
   outline: 0;
 }
+.accessory {
+  background: linear-gradient(to bottom, #000 0, #161617);
+}
 
 /* Computer size */
 .text-xxl {
@@ -115,6 +118,9 @@ a:hover {
 }
 .text-79px {
   font-size: 79px;
+}
+.text-48px {
+  font-size: 48px;
 }
 
 .br-phone {
@@ -187,6 +193,14 @@ video {
   background-image: url(https://www.apple.com/v/iphone-12-pro/a/images/overview/ios/static_wallpaper__lucx86pfhxua_large.jpg);
   background-size: cover;
 }
+.btn-orange {
+  font-size: 12px;
+  color: #f56300;
+  border-color: #f56300;
+  border-style: solid;
+  border-width: 1px;
+  cursor: text;
+}
 
 /* Telephone size */
 @media screen and (max-width: 767px) {
@@ -194,7 +208,8 @@ video {
   .text-79px {
     font-size: 48px;
   }
-  .text-xl {
+  .text-xl,
+  .text-48px {
     font-size: 32px;
   }
   .text-lg {
