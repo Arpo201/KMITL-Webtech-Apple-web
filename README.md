@@ -16,8 +16,8 @@ Home ชิโนะ เสร็จ
 
 ## iPhone เทพปิง กำลังทำนะจ๊ะ
 
-- iPhone 11 Pro อาโป กำลังทำ
-- iPhone 11
+- iPhone 12 Pro อาโป กำลังทำ
+- iPhone 12
 - iPhone SE
 
 Navbar หลัก ไอซ์, Navbar รอง, Footage
