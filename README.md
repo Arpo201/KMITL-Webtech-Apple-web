@@ -10,13 +10,13 @@ Home ชิโนะ เสร็จ
 
 ## iPad เทพปิง เสร็จ
 
-- iPad Pro อาโป เสร็จ (no animation)
+- iPad Pro อาโป เสร็จ (animate)
 - iPad Air พีท เสร็จ
 - iPad ไอซ์
 
 ## iPhone เทพปิง กำลังทำนะจ๊ะ
 
-- iPhone 12 Pro อาโป กำลังทำ
+- iPhone 12 Pro เสร็จ (no animation)
 - iPhone 12
 - iPhone SE
 
