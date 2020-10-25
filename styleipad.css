@@ -1,0 +1,26 @@
+@media only screen and (max-width: 764px) {
+    .col-sm-12,
+    .col-12 {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .i1{
+        text-align:left;
+    }
+}
+
+p {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.btn-link{
+    text-align: left;
+}
+body {
+    font-family: 'Prompt', sans-serif;
+}
