@@ -18,13 +18,21 @@ body{
         font-weight: bold;
     }
 .container {
-        max-width: var(--breakpoint-lg);
+        max-width: var(--breakpoint-xl);
     }
 .displaycm{
     display: unset;
 }
 .displayph{
     display:none;
+}
+#data{
+    font-size: 20px;
+}
+
+#bar_2{
+    width: 30%;
+    background-color: rgb(0, 0, 0);
 }
     @media screen and (max-width: 991px) {
 
@@ -363,10 +371,10 @@ body{
                     </div>
                 </div>
                 <div class="col-md-6 mt-5">
-                    <div data-aos="fade-up" data-aos-duration="2500">
+                    <div data-aos="fade-up" data-aos-duration="1500">
                     <p>iMac รุ่น 21.5 นิ้ว</p>
                     </div>
-                     <hr> <div  data-aos="fade-up" data-aos-duration="3500">
+                     <hr> <div  data-aos="fade-up" data-aos-duration="2500">
                     <p><span style="color: #86868b;"> โปรเซสเซอร์ Intel Core i7<br>
                         รุ่นที่ 8 สูงสุด</span><br> <span style="font-size:70px;"> 6-core</span></p></div>
                     <hr> <div  data-aos="fade-up" data-aos-duration="3500">
@@ -376,7 +384,7 @@ body{
                 </div>
                 <div class="col-md-6 mt-5">
                     <div  data-aos="fade-up" data-aos-duration="1500">
-                    <p>iMac รุ่น 27 นิ้ว</p></div> <hr>
+                    <p>iMac รุ่น 27 นิ้ว</p></div> <hr> 
                     <div  data-aos="fade-up" data-aos-duration="2500">
                     <p><span style="color: #86868b;"> โปรเซสเซอร์ Intel Core i9 <br>
                         รุ่นที่ 10 สูงสุด
@@ -398,19 +406,23 @@ body{
                     </div>
                 </div>
                 <div class="col-6 mt-5">
-                    <p>iMac รุ่น 21.5 นิ้ว</p> <hr>
+                    <div data-aos="fade-up"  data-aos-duration="1500">
+                    <p>iMac รุ่น 21.5 นิ้ว</p></div> <hr> <div data-aos="fade-up" data-aos-duration="2500">
                     <p><span style="color: #86868b;"> โปรเซสเซอร์ Intel Core i7<br>
-                        รุ่นที่ 8 สูงสุด</span><br> <span style="font-size:40px;"> 6-core</span></p>
-                    <hr> <p><span style="color:#86868b;">Turbo Boost <br>
+                        รุ่นที่ 8 สูงสุด</span><br> <span style="font-size:40px;"> 6-core</span></p></div>
+                    <hr>
+                    <div data-aos="fade-up" data-aos-duration="3500"> <p><span style="color:#86868b;">Turbo Boost <br>
                         สูงสุด</span> <br><span style="font-size: 40px;">4.6</span><span style="font-size: 30px;">GHz</span></p>
+                    </div>
                 </div>
                 <div class="col-6 mt-5">
-                    <p>iMac รุ่น 27 นิ้ว</p> <hr>
+                    <div data-aos="fade-up"  data-aos-duration="1500">
+                    <p>iMac รุ่น 27 นิ้ว</p></div><hr> <div data-aos="fade-up" data-aos-duration="2500">
                     <p><span style="color: #86868b;"> โปรเซสเซอร์ Intel Core i9 <br>
                         รุ่นที่ 10 สูงสุด
-                        </span><br> <span style="font-size:40px;"> 10-core</span></p>
-                        <hr> <p><span style="color:#86868b;">Turbo Boost <br>
-                            สูงสุด</span> <br><span style="font-size: 40px;">5.0</span><span style="font-size: 30px;">GHz</span></p>
+                        </span><br> <span style="font-size:40px;"> 10-core</span></p></div>
+                        <hr>  <div data-aos="fade-up" data-aos-duration="3500"><p><span style="color:#86868b;">Turbo Boost <br>
+                            สูงสุด</span> <br><span style="font-size: 40px;">5.0</span><span style="font-size: 30px;">GHz</span></p></div> 
                 </div>
             </div>
         </div>
@@ -418,16 +430,189 @@ body{
     <div class="displaycm">
         <div class="container">
             <div class="row m-auto">
-                <div class="col-md-12 mt-5">
-                                 
+                <div class="col-md-12 mt-5" style="background-color: #f5f5f7;" >
+                    <div data-aos="fade-up" data-aos-duration="5000" style="margin: 6%;">
+                    <div class="btn-group btn-group-toggle mb-5">
+                        <label for="data" id="data_1" class="btn btn-secondary" onclick="change('data_1')">Logic Pro X</label>
+                        <label for="data2" id="data_2" class="btn btn-secondary" onclick="change('data_2')"> Final Cut Pro X</label>
+                        <label for="data3" id="data_3" class="btn btn-secondary" onclick="change('data_3')"> Autodesk Maya </label>
+                        <label for="data4" id="data_4" class="btn btn-secondary" onclick="change('data_4')"> WebKit Compile</label> 
+                        <label for="data5" id="data_5" class="btn btn-secondary" onclick="change('data_5')">MATLAB</label> 
+                    </div>
+                    <p style="font-weight: bold; font-size: 20px;">iMac รุ่น 27 นิ้ว
+                    </p>
+                    <div class="col-md-10" style="
+                        width: 100%;
+                        padding: 1mm;
+                        background-color: rgb(0, 0, 0);
+                        border:2px black;
+                    border-radius: 30px;" id="bar_1">
+                    </div>
+                            <p id="text_1"class="position-absolute" style="left:85%; top: 40%;"> ปลั๊กอิน Amp Designer มากขึ้น <sup> 1</sup>
+                                <span style="font-size: 80px;">65%</span></p>
+                    <p>iMac แบบ 10-core</p> <br>
+                    <div class="col-md-10"  style=" width: 50%;
+                    padding: 1mm;
+                    background-color: rgb(0, 0, 0);
+                    border:2px black;
+                    border-radius: 30px;" id="bar_2">
+                    </div>
+                    <p>iMac แบบ 8-core รุ่นก่อนหน้า (ค่ามาตรฐาน)</p>
+                    </div>
+                    <script>
+                        function change(id){
+                            var dot1 = document.getElementById("data_1");
+                            var dot2 = document.getElementById("data_2");
+                            var dot3 = document.getElementById("data_3");
+                            var dot4 = document.getElementById("data_4");
+                            var dot5 = document.getElementById("data_5");
+                            
+                            var data_came = document.getElementById(id);
+
+                            var text_data = document.getElementById("text_1");
+                            var text_Da = "";
+
+                            if(id == "data_1"){
+                                bar_1.style.width = "100%";
+                                bar_2.style.width = "50%";
+                                text_Da += "<div class='col-md-6'>"
+                                text_Da += "</div>"
+                                text_Da += "<p> ปลั๊กอิน Amp Designer มากขึ้น <sup> 1</sup> <span style='font-size: 80px;'>65%</span></p>"
+
+                                text_data.innerHTML = text_Da;
+                            }
+                            if(id == "data_2"){
+                                bar_1.style.width = "100%";
+                                bar_2.style.width = "60%";
+                                text_Da += "<div class='col-md-6'>"
+                                text_Da += "</div>"
+                                text_Da += "<p> แปลง ProRes เร็วขึ้น <sup> 2</sup> <span style='font-size: 80px;'>40%</span></p>"
+                                text_data.innerHTML = text_Da;
+                            }
+                            if(id == "data_3"){
+                                bar_1.style.width = "100%";
+                                bar_2.style.width = "65%";
+                                text_Da += "<div class='col-md-6'>"
+                                text_Da += "</div>"
+                                text_Da += "<p> เรนเดอร์ด้วย Arnold เร็วขึ้น<sup> 3</sup> <span style='font-size: 80px;'>35%</span></p>"
+                                text_data.innerHTML = text_Da;
+                            }
+                            if(id == "data_4"){
+                                bar_1.style.width = "100%";
+                                bar_2.style.width = "70%";
+                                text_Da += "<div class='col-md-6'>"
+                                text_Da += "</div>"
+                                text_Da += "<p> เวลาในการสร้างโดยใช้ Xcode เร็วขึ้น <sup> 4</sup> <span style='font-size: 80px;'>25%</span></p>"
+                                text_data.innerHTML = text_Da;
+                            }
+                            if(id == "data_5"){
+                                bar_1.style.width = "100%";
+                                bar_2.style.width = "70%";
+                                text_Da += "<div class='col-md-6'>"
+                                text_Da += "</div>"
+                                text_Da += "<p> จำลองระบบพลวัตได้เร็วขึ้น <sup> 5</sup> <span style='font-size: 80px;'>20%</span></p>"
+                                text_data.innerHTML = text_Da;
+                            }
+                        }
+                    </script>
+
                 </div>
             </div>
         </div>
     </div>
+    <div class="displayph">
+        <div class="container-fluid">
+            <div class="row m-auto">
+                <div class="col-12 mt-5"  style="background-color: #f5f5f7; margin: 5%;">
+                    <div data-aos="fade-up" data-aos-duration="5000">
+                        <label for="data" id="data_1" class="btn btn-secondary" onclick="changeph('data_1')">Logic Pro X</label>
+                        <label for="data2" id="data_2" class="btn btn-secondary" onclick="changeph('data_2')"> Final Cut Pro X</label>
+                        <label for="data3" id="data_3" class="btn btn-secondary" onclick="changeph('data_3')"> Autodesk Maya </label>
+                        <label for="data4" id="data_4" class="btn btn-secondary" onclick="changeph('data_4')"> WebKit Compile</label> 
+                        <label for="data5" id="data_5" class="btn btn-secondary" onclick="changeph('data_5')">MATLAB</label> 
+                        <p style="font-weight: bold; font-size: 20px;">iMac รุ่น 27 นิ้ว
+                        </p>
+                        <p id="text_7"> ปลั๊กอิน Amp Designer มากขึ้น <sup> 1</sup>
+                            <span style="font-size: 70px;">65%</span></p>
+                        <div class="col-10" style="
+                            width: 100%;
+                            padding: 1mm;
+                            background-color: rgb(0, 0, 0);
+                            border:2px black;
+                        border-radius: 30px;" id="bar_5">
+                        </div>
+                               
+                        <p>iMac แบบ 10-core</p> <br>
+                        <div class="col-10"  style=" width: 50%;
+                        padding: 1mm;
+                        background-color: rgb(0, 0, 0);
+                        border:2px black;
+                        border-radius: 30px;" id="bar_6">
+                        </div>
+                        <p>iMac แบบ 8-core รุ่นก่อนหน้า (ค่ามาตรฐาน)</p>
+                    </div>
+                    <script>
+                        function changeph(id){
+                            var dot1 = document.getElementById("data_1");
+                            var dot2 = document.getElementById("data_2");
+                            var dot3 = document.getElementById("data_3");
+                            var dot4 = document.getElementById("data_4");
+                            var dot5 = document.getElementById("data_5");
+                            
+                            var data_came = document.getElementById(id);
+
+                            var text_data1 = document.getElementById("text_7");
+                            var text_Data = "";
+
+                            if(id == "data_1"){
+                                bar_5.style.width = "100%";
+                                bar_6.style.width = "50%";
+                                text_Data += "<div class='col-md-6'>"
+                                text_Data += "</div>"
+                                text_Data += "<p> ปลั๊กอิน Amp Designer มากขึ้น <sup> 1</sup> <span style='font-size: 80px;'>65%</span></p>"
+                                text_data1.innerHTML = text_Data;
+                            }
+                            if(id == "data_2"){
+                                bar_5.style.width = "100%";
+                                bar_6.style.width = "60%";
+                                text_Data += "<div class='col-md-6'>"
+                                text_Data += "</div>"
+                                text_Data += "<p> แปลง ProRes เร็วขึ้น <sup> 2</sup><br> <span style='font-size: 80px;'>40%</span></p>"
+                                text_data1.innerHTML = text_Data;
+                            }
+                            if(id == "data_3"){
+                                bar_5.style.width = "100%";
+                                bar_6.style.width = "65%";
+                                text_Data += "<div class='col-md-6'>"
+                                text_Data += "</div>"
+                                text_Data += "<p> เรนเดอร์ด้วย Arnold เร็วขึ้น<sup> 3</sup> <span style='font-size: 80px;'>35%</span></p>"
+                                text_data1.innerHTML = text_Data;
+                            }
+                            if(id == "data_4"){
+                                bar_5.style.width = "100%";
+                                bar_6.style.width = "70%";
+                                text_Data += "<div class='col-md-6'>"
+                                text_Data += "</div>"
+                                text_Data += "<p> เวลาในการสร้างโดยใช้ Xcode เร็วขึ้น <sup> 4</sup> <span style='font-size: 80px;'>25%</span></p>"
+                                text_data1.innerHTML = text_Data;
+                            }
+                            if(id == "data_5"){
+                                bar_5.style.width = "100%";
+                                bar_6.style.width = "70%";
+                                text_Data += "<div class='col-md-6'>"
+                                text_Data += "</div>"
+                                text_Data += "<p> จำลองระบบพลวัตได้เร็วขึ้น <sup> 5</sup> <span style='font-size: 80px;'>20%</span></p>"
+                                text_data1.innerHTML = text_Data;
+                            }
+                        }
+                    </script>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>  
     <div style="height: 1000px;">
 
     </div>
 </body>
 </html>
-
-<!-- #1d1d1f -->
