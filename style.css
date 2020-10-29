@@ -4,8 +4,11 @@
 }
 
 /* Products page second navbar */
-.navbar-produc {
+.navbar-produc-black {
   background-color: rgba(29, 29, 29, 0.5);
+}
+.navbar-produc-white {
+  background-color: rgba(255, 255, 255, 0.85);
 }
 .product-brand {
   font-size: 21px;
