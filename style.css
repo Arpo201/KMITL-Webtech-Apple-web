@@ -41,6 +41,7 @@
 .search-icon:hover,
 .shop-icon:hover {
   opacity: 1;
+  color: #f5f5f7;
 }
 
 .nav-links {
