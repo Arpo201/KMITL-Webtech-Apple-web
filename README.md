@@ -1,23 +1,23 @@
 # Webtech-AppleProject
 
-Home ชิโนะ เสร็จ
+Home
 
-## Mac ปิง
+## Mac
 
-- MacBook Air ชิโนะ
-- MacBook Pro รุ่น 13” อาโป เสร็จ
+- MacBook Air
+- MacBook Pro รุ่น 13”
 - iMac ผีท
 
-## iPad เทพปิง เสร็จ
+## iPad
 
-- iPad Pro อาโป เสร็จ
-- iPad Air พีท เสร็จ
-- iPad ไอซ์ เสร็จ
+- iPad Pro
+- iPad Air
+- iPad
 
-## iPhone เทพปิง กำลังทำนะจ๊ะ
+## iPhone
 
-- iPhone 12 Pro เสร็จ
+- iPhone 12 Pro
 - iPhone 12
 - iPhone SE
 
-Navbar หลัก ไอซ์, Navbar รอง, Footage
+Navbar หลัก, Navbar รอง, Footage
