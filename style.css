@@ -37,6 +37,17 @@
 }
 
 /* ------------------------------------------------------------------------------------------------------------ */
+
+/* Products services(before footer) */
+.text-ser-19 {
+  font-size: 19px;
+}
+.text-ser-14 {
+  font-size: 14px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------ */
+
 :root {
   --AppIcon: url(https://www.apple.com/ac/globalnav/6/th_TH/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_apple_image__cxwwnrj0urau_large.svg);
   --ShopIcon: url(https://www.apple.com/ac/globalnav/6/th_TH/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_bag_image__bmix8075eg4i_small.svg);
