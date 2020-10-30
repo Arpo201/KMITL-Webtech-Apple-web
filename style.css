@@ -3,7 +3,51 @@
   font-family: "Prompt", sans-serif;
 }
 
+/* Products page second navbar */
+.navbar-produc-black {
+  background-color: rgba(29, 29, 29, 0.5);
+}
+.navbar-produc-white {
+  background-color: rgba(255, 255, 255, 0.85);
+}
+.product-brand {
+  font-size: 21px;
+  font-weight: bold;
+}
+.mini-text {
+  font-size: 12px;
+  font-weight: bold;
+}
+.icon-collapse {
+  border: none;
+  outline: none;
+}
+.icon-collapse:focus {
+  border: none;
+  outline: none;
+}
+
+@media screen and (max-width: 767px) {
+  .product-brand {
+    font-size: 19px;
+  }
+  .mini-text {
+    font-size: 14px;
+  }
+}
+
 /* ------------------------------------------------------------------------------------------------------------ */
+
+/* Products services(before footer) */
+.text-ser-19 {
+  font-size: 19px;
+}
+.text-ser-14 {
+  font-size: 14px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------ */
+
 :root {
   --AppIcon: url(https://www.apple.com/ac/globalnav/6/th_TH/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_apple_image__cxwwnrj0urau_large.svg);
   --ShopIcon: url(https://www.apple.com/ac/globalnav/6/th_TH/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_bag_image__bmix8075eg4i_small.svg);
