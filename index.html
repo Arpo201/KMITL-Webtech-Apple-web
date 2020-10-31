@@ -18,7 +18,7 @@
         background-repeat: no-repeat;
         background-attachment: none;
         background-position: center;
-        background-size: fixed;
+        background-size: cover;
         width: 100%;
       }
       .new-ipad{
@@ -56,6 +56,43 @@
       }
       .game-select{
         text-decoration: none;
+      }
+      .br-phone {
+        display: none;
+      }
+      .br-com {
+        display: inline;
+      }
+      .d-com {
+        display: unset;
+      }
+      .d-phone {
+        display: none;
+      }
+      .watch{
+        width: 15%;
+      }
+
+      @media screen and (max-width: 991px) {
+        .br-phone {
+          display: inline;
+        }
+        .br-com {
+          display: none;
+        }
+        .d-com {
+          display: none;
+        }
+        .d-phone {
+          display: unset;
+        }
+        .october-event {
+          background-image: none;
+          background-color: #000;
+        }
+        .watch{
+          width: 40%;
+        }
       }
     </style>
     <title>Apple (Thailand)</title>
@@ -127,12 +164,12 @@
       <!-- Event -->
       <div class="row m-0">
         <div class="col-md m-0 p-0">
-          <div class="october-event" style="margin-left:0;padding-bottom: 40%;padding-top: 5%;padding-left: 10%;padding-right: 10%;width:100%; height:100%;cursor: pointer; color: lightgrey;">
+          <div class="october-event" style="margin-left:0;padding-bottom: 40%;padding-top: 5%;padding-left: 10%;padding-right: 10%;width:100%; cursor: pointer; color: lightgrey;">
             <p style="font-size: 12px;">โปรดตรวจสอบวันวางจำหน่ายอีกครั้ง</p>
             <h2 style="font-size:72px;color: white;"><b>iPhone 12 Pro</b></h2>
             <h2 style="font-size:4vh;color: white;">ปีแห่งการก้าวกระโดด</h2></span>
             <a href="#"><h2>ดูเพิ่มเติม ></h2></a>
-            <br /><br /><br />
+            <img class="img-fluid d-phone" src="https://www.apple.com/v/iphone-12-pro/a/images/overview/hero/hero_static__k8unjy3rn32a_small_2x.jpg" alt="">
           </div>
         </div>
       </div>
@@ -140,9 +177,9 @@
       <div class="row m-0">
           <div class="col-md m-0" style=" padding: 100px 0px 50px;color: white;background-color: black;cursor: pointer;">
             <img style="width:20%;" src="Index-Pic/ApplewatchLogo.png">
-            <h3>อนาคตของสุขภาพ บนข้อมือคุณ</h3>
+            <h3>อนาคตของสุขภาพ <br class="br-phone">บนข้อมือคุณ</h3>
             <a href="#"><h4>ดูเพิ่มเติม ></a><a href="#">&nbsp;&nbsp;&nbsp;&nbsp; สั่งซื้อ ></h4></a><br><br><br>
-            <img style="width:15%" src="Index-Pic/Applewatch.jpg">
+            <img class="watch" src="Index-Pic/Applewatch.jpg">
           </div>
       </div>
       <!-- iPad -->
