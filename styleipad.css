@@ -3,7 +3,15 @@
         text-align:center;
     }
 }
+.btext {
+    color: rgb(58, 58, 58);
+    font-size: 12.5px;
+}
 
+.p0 {
+    color: rgb(100, 100, 100);
+    font-size: 12.5px;
+}
 p {
     font-size: 20px;
 }
