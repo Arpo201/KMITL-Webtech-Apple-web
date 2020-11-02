@@ -12,6 +12,19 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script>
+        function Change(data){
+            let color = document.getElementById(data);
+            let photo = document.getElementById("photo");
+            if(color.value == "1"){
+                photo.src = "https://www.apple.com/th/iphone-se/images/overview/use_ar_black__epg7kqtjuw4m_medium_2x.png";
+            }else if(color.value == "2"){
+                photo.src = "https://www.apple.com/th/iphone-se/images/overview/use_ar_white__cjig29vc6jhy_medium_2x.png";
+            }else if(color.value == "3"){
+                photo.src = "https://www.apple.com/th/iphone-se/images/overview/use_ar_red__fttytux5ptea_medium_2x.png";
+            }
+        }
+    </script>
 </head>
 <body>
     <nav class="navbar navbar-expand-md bg-dark p-1">
@@ -295,6 +308,165 @@
         <div class="row">
             <div class="col-12 text-center">
                 <img src="https://www.apple.com/th/iphone-se/images/overview/ios13__bwsrc6p1ka4i_large.jpg" style="width: 100%;">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="background-color: black;">
+        <div class="row" style="padding-top: 10%;">
+            <div class="col-12 text-center" style="color: white;">
+                <h1>มาในสีดำ</h1>
+                <img src="black.jpg" style="margin-top: 5%; width: 30%;">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="background-color: white;">
+        <div class="row" style="padding-top: 10%;">
+            <div class="col-12 text-center">
+                <h1 style="color: #8b8b99;">มาในสีดำ</h1>
+                <h1>สีขาว</h1>
+                <img src="white.jpg" style="margin-top: 5%; width: 30%;">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="background-color: #960b19;">
+        <div class="row" style="padding-top: 10%;">
+            <div class="col-12 text-center">
+                <h1 style="color: #e57571;">มาในสีดำ</h1>
+                <h1 style="color: white;">สีขาว และก็ว้าว</h1>
+                <img src="red.jpg" style="margin-top: 5%; width: 30%;">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="background-color: black;">
+        <div class="row" style="padding-top: 10%;">
+            <div class="col-12 text-center" style="color: white;">
+                <h1>ยังมีอะไรดีๆ อีกเยอะ</h1>
+            </div>
+        </div>
+        <div class="row" style="padding-top: 5%;">
+            <div class="col-lg-4 col-md-4 col-sm-6 col-6 text-center" style="color: white;">
+                <img style="margin-bottom: 3%; width: 10%;" src="https://www.apple.com/v/iphone-se/c/images/overview/icon_true_tone__gky7iakle86e_large_2x.jpg">
+                <h5>True Tone</h5>
+                <p>จอภาพจะมีการปรับไวท์บาลานซ์</p>
+                <p>อย่างต่อเนื่อง ภาพจึงดูเป็น</p>
+                <p>ธรรมชาติและสบายตายิ่งขึ้น</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-6 text-center" style="color: white;">
+                <img style="margin-bottom: 3%; width: 10%;" src="https://www.apple.com/v/iphone-se/c/images/overview/icon_haptic_touch__d8puyvsg8m4i_large.jpg">
+                <h5>การแตะค้างแบบสั่น</h5>
+                <p>เมื่อแตะไอคอนค้างไว้เพื่อใช้</p>
+                <p>คำสั่งลัด จะมีการสั่นเล็กน้อย</p>
+                <p>ที่ทำให้รู้สึกเหมือนกำลัง</p>
+                <p>กดปุ่มจริงๆ</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-6 text-center" style="color: white;">
+                <img style="margin-bottom: 3%; width: 10%;" src="https://www.apple.com/v/iphone-se/c/images/overview/icon_ar__gijjnhfcjwii_large.jpg">
+                <h5>เทคโนโลยีความจริงเสริม</h5>
+                <p>ใช้งานแอพ AR เวอร์ชั่นล่าสุด</p>
+                <p>เพื่อวัดขนาดของวัตถุในโลกจริง</p>
+                <p>ลากแผนที่หากลุ่มดาว</p>
+                <p>และอีกมากมาย</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-6 text-center" style="color: white;">
+                <img style="margin-bottom: 3%; width: 10%;" src="https://www.apple.com/v/iphone-se/c/images/overview/icon_stereo_audio__d5quuecf8466_large.jpg">
+                <h5>การบันทึกเสียงสเตอริโอ</h5>
+                <p>iPhone SE บันทึกวิดีโอในรูป</p>
+                <p>แบบเสียงสเตอริโอ จึงให้เสียงที่</p>
+                <p>เต็มอิ่มสมจริงไม่แพ้ภาพ</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-6 text-center" style="color: white;">
+                <img style="margin-bottom: 3%; width: 10%;" src="https://www.apple.com/v/iphone-se/c/images/overview/icon_lte__cny5971gdeqa_large.jpg">
+                <h5>Wi-Fi และข้อมูลเซลลูลาร์ที่เร็วขึ้น</h5>
+                <p>Wi-Fi 6 และ LTE ระดับ</p>
+                <p>Gigabit ช่วยให้ดาวน์โหลด</p>
+                <p>เร็วขึ้นกว่าเดิมมาก ไม่ว่าคุณจะ</p>
+                <p>ใช้งานบน เครือข่าย Wi-Fi หรือ</p>
+                <p>เซลลูลาร์ก็ตาม</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-6 text-center" style="color: white;">
+                <img style="margin-bottom: 3%; width: 10%;" src="https://www.apple.com/v/iphone-se/c/images/overview/icon_audio_sharing__fa6ldscpevam_large.jpg">
+                <h5>การแชร์เสียง</h5>
+                <p>แค่จับคู่ AirPods หรือหูฟัง</p>
+                <p>Beats สองคู่เข้ากับ iPhone</p>
+                <p>หนึ่งเครื่อง คุณกับเพื่อนก็</p>
+                <p>สามารถโยกตามจังหวะเพลงใน</p>
+                <p>เพลย์ลิสต์เดียวกันได้เลย</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-6 text-center" style="color: white;">
+                <img style="margin-bottom: 3%; width: 10%;" src="https://www.apple.com/v/iphone-se/c/images/overview/icon_sim__fy766zkxageq_large.jpg">
+                <h5>ซิมคู่ สองเบอร์</h5>
+                <p>ซิมคู่ที่มี eSIM ให้คุณใช้หมายเลข</p>
+                <p>โทรศัพท์ทั้งสำหรับเรื่องงานและ</p>
+                <p>สำหรับเรื่องส่วนตัวได้บน</p>
+                <p>iPhone เครื่องเดียวกัน</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="background-color: #161616;">
+        <div class="row" style="padding-top: 10%;">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12 text-center" style="color: white; padding-top: 5%;">
+                <img src="https://www.apple.com/v/iphone-se/c/images/overview/icon_use_ar__fmi5fvbm19iu_medium_2x.jpg" style="width: 10%; margin-bottom: 5%;">
+                <h1>ใช้ AR เพื่อ</h1>
+                <h1>ทดลองดู</h1>
+                <h1>iPhone SE</h1>
+                <h5 style="color: #999999;">เปิดหน้านี้โดยใช้ Safari</h5>
+                <h5 style="color: #999999;">บน iPhone หรือ iPad ของคุณ</h5>
+                <button onclick="Change('black')" id="black" class="btn btn-dark btn-circle" value="1" style="border-radius: 30px;">B</button>
+                <button onclick="Change('white')" id="white" class="btn btn-light btn-circle" value="2" style="border-radius: 30px;">W</button>
+                <button onclick="Change('red')" id="red" class="btn btn-danger btn-circle" value="3" style="border-radius: 30px;">R</button>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12 text-left">
+                <img id="photo" src="https://www.apple.com/th/iphone-se/images/overview/use_ar_black__epg7kqtjuw4m_medium_2x.png" style="width: 70%;">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="background-color: black;">
+        <div class="row" style="padding-top: 8%;">
+            <div class="col-12 text-center">
+                <h1 style="color: white;">ดูอุปกรณ์เสริมต่างๆ ของ iPhone</h1>
+                <a class="btn btn-link" href="#">เลือกซื้อ ></a>
+                <br>
+                <img style="margin-top: 5%; width: 30%;" src="https://www.apple.com/v/iphone-se/c/images/overview/accessories__cnuv6it4rej6_medium_2x.jpg">
+            </div>
+        </div>
+        <div class="row" style="padding-top: 15%;">
+            <div class="col-12 text-center" style="color: white;">
+                <h1>เหตุผลดีๆ ที่คุ้มค่า</h1>
+                <h1>ในการอัพเกรดจาก iPhone</h1>
+                <h1>เครื่องเดิมของคุณเป็น</h1>
+                <h1>iPhone SE</h1>
+                <a class="btn btn-link" href="#">ดูว่าคุณพลาดอะไรไปบ้าง ></a>
+                <br>
+                <img style="margin-top: 5%; width: 60%;" src="https://www.apple.com/v/iphone-se/c/images/overview/upgrade__faxzimo41guq_medium_2x.jpg">
+            </div>
+        </div>
+        <div class="row" style="padding-top: 10%; padding-bottom: 10%;">
+            <div class="col-12 text-center" style="color: white;">
+                <h1>ใช้ Android อยู่รึเปล่า</h1>
+                <a class="btn btn-link" href="#">ดูว่าทําไมคุณถึงควรเปลี่ยน ></a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="background-color: #161616;">
+        <div class="row" style="padding-top: 10%;">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12 text-center" style="color: white;">
+                <h2>รับเครดิตมูลค่าสูงสุด</h2>
+                <h2>฿15,500 สำหรับใช้ซื้อ</h2>
+                <h2>iPhone SE</h2>
+                <p>Apple Trade In ให้คุณนำ iPhone หรือสมาร์ทโฟน</p>
+                <p>Andriod เครื่องปัจจุบันมาแลกเป็นเครดิตสำหรับใช้ซื้อ</p>
+                <p>iPhone SE หรือนำอุปกรณ์มาแลกพร้อมกัน</p>
+                <p>หลายเครื่องเพื่อรับเครดิตเพิ่มขึ้นอีกก็ยังได้</p>
+                <p>เรียกว่าทั้งดีต่อคุณและดีต่อโลกใบนี้</p>
+                <a class="btn btn-link" href="#">ดูเพิ่มเติม ></a>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12 text-center" style="color: white;">
+                <h2>ทำไมซื้อที่ Apple</h2>
+                <h2>ถึงดีที่สุด</h2>
+                <p>หากมีคำถามเกี่ยวกับผู้ให้บริการเครือข่ายโทรศัพท์</p>
+                <p>การชำระเงิน หรืออะไรก็ตามที่เกี่ยวกับ iPhone</p>
+                <p>ก็บอกเราได้เลย</p>
+                <a class="btn btn-link" href="#">ดูเพิ่มเติม ></a>
             </div>
         </div>
     </div>
