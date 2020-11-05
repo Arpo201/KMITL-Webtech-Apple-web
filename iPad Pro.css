@@ -49,7 +49,7 @@ body {
   border-radius: 0;
 }
 .image-hardware {
-  background-image: url(https://www.apple.com/v/ipad-pro/ac/images/overview/horizontal_ipad_pro_13_hw__blhsxr6ksmr6_large.png);
+  background-image: url(iPad-Pro-Pic/image-hardware.png);
   width: 100%;
   height: 70vw;
   background-size: contain;
@@ -64,13 +64,13 @@ body {
   background-repeat: no-repeat;
 }
 .image-overview-camera-cameras-ar-screen {
-  background-image: url(https://www.apple.com/v/ipad-pro/ac/images/overview/camera/cameras_ar_screen__bg8db448nwdu_large.jpg);
+  background-image: url(iPad-Pro-Pic/image-overview-camera-cameras-ar-screen.jpg);
 }
 .image-overview-camera-cameras-shoot-screen {
-  background-image: url(https://www.apple.com/th/ipad-pro/images/overview/camera/cameras_shoot_screen__ehtlxb2mglua_large.jpg);
+  background-image: url(iPad-Pro-Pic/image-overview-camera-cameras-shoot-screen.jpg);
 }
 .image-overview-camera-cameras-depth-screen {
-  background-image: url(https://www.apple.com/th/ipad-pro/images/overview/camera/cameras_depth_screen__gdulmxxryh26_large.jpg);
+  background-image: url(iPad-Pro-Pic/image-overview-camera-cameras-depth-screen.jpg);
 }
 
 /* Computer size */
@@ -80,7 +80,7 @@ body {
 }
 .advert1 {
   background-repeat: no-repeat;
-  background-image: url(https://www.apple.com/v/ipad-pro/ac/images/overview/hero_manifesto_bg__c0zrbe748m82_large.jpg);
+  background-image: url(iPad-Pro-Pic/advert1.jpg);
   background-size: cover;
   background-clip: text;
   -webkit-background-clip: text;
@@ -117,24 +117,24 @@ body {
 
 .img1 {
   background-repeat: no-repeat;
-  background-image: url(https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX466_.jpg);
+  background-image: url(iPad-Pro-Pic/css-img1.jpg);
   background-size: 400px;
   background-position: 320px 0;
 }
 .img2 {
   background-repeat: no-repeat;
-  background-image: url(https://www.apple.com/v/ipad-pro/ac/images/overview/camera/cameras_static_pro__e69k5s4qjtme_medium.jpg);
+  background-image: url(iPad-Pro-Pic/css-img2.jpg);
   background-size: 55vw;
   background-position: right top;
 }
 .img3 {
   background-repeat: no-repeat;
-  background-image: url(https://www.apple.com/v/ipad-pro/ac/images/overview/camera/cameras_static_lidar__fu6l78zi0wyi_medium.jpg);
+  background-image: url(iPad-Pro-Pic/css-img3.jpg);
   background-size: 55vw;
   background-position: right top;
 }
 .img4 {
-  background-image: url(https://www.apple.com/v/ipad-pro/ac/images/overview/camera/cameras_static_particles__ey4v1ywxpb0i_large.jpg);
+  background-image: url(iPad-Pro-Pic/css-img4.jpg);
   background-color: #000;
   background-size: 2590px 900px;
   background-repeat: no-repeat;
@@ -146,14 +146,14 @@ body {
 }
 .img5 {
   background-repeat: no-repeat;
-  background-image: url(https://www.apple.com/v/ipad-pro/ac/images/overview/performance_hero_zoomed__geu40zd29066_large.jpg);
+  background-image: url(iPad-Pro-Pic/css-img5.jpg);
   background-size: 65%;
   background-position: 130% top;
   height: 60vw;
 }
 .img6 {
   background-repeat: no-repeat;
-  background-image: url(https://www.apple.com/v/ipad-pro/ac/images/overview/keyboard/keyboard_angle__gmdgk0ggx9ui_large.jpg);
+  background-image: url(iPad-Pro-Pic/css-img6.jpg);
   background-size: 95%;
   background-position: 200% top;
   height: 60vw;
@@ -165,10 +165,10 @@ body {
   left: 35%;
 }
 .img7-dark {
-  background-image: url(https://www.apple.com/th/ipad-pro/images/overview/keyboard/keyboard_backlit__3uqnpgxooz6u_large.jpg);
+  background-image: url(iPad-Pro-Pic/css-img7-dark.jpg);
 }
 .img7-light {
-  background-image: url(https://www.apple.com/v/ipad-pro/ac/images/overview/keyboard/keyboard_trackpad__dfqfw23nttme_large.jpg);
+  background-image: url(iPad-Pro-Pic/css-img7-light.jpg);
 }
 .img7-dark,
 .img7-light {
@@ -218,7 +218,7 @@ body {
 }
 .img12 {
   background-repeat: no-repeat;
-  background-image: url(https://www.apple.com/v/ipad-pro/ac/images/shared/ipad_accessories__c3tmncn6oswi_large.jpg);
+  background-image: url(iPad-Pro-Pic/css-img11.jpg);
   background-size: 180vw;
   background-position: -45vw top;
   height: 100vh;
@@ -232,7 +232,7 @@ body {
   }
   .advert1 {
     background-repeat: no-repeat;
-    background-image: url(https://www.apple.com/v/ipad-pro/ac/images/overview/hero_manifesto_bg__c0zrbe748m82_large.jpg);
+    background-image: url(iPad-Pro-Pic/css-img12.jpg);
     background-size: cover;
     background-clip: text;
     -webkit-background-clip: text;
