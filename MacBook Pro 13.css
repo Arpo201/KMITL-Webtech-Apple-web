@@ -75,7 +75,7 @@ a:hover {
   line-height: 1.3;
 }
 .bg-fog {
-  background-image: url(https://www.apple.com/v/macbook-pro-13/c/images/overview/keyboard/keys_trackpad_back_glow__ek482ozmnlsi_large.jpg);
+  background-image: url(Macbook-Pro-13-Pic/keys_trackpad_back_glow__ek482ozmnlsi_large.jpg);
   background-size: 105%;
   background-position: center;
   background-repeat: no-repeat;
@@ -165,7 +165,7 @@ a:hover {
   display: none;
 }
 .macPro13-frame {
-  background-image: url(https://www.apple.com/v/macbook-pro-13/c/images/overview/performance/perf_gallery_hw__bdxj0rf7d3te_large.png);
+  background-image: url(Macbook-Pro-13-Pic/perf_gallery_hw__bdxj0rf7d3te_large.png);
   position: relative;
   z-index: 5;
   width: 1009px;
@@ -187,14 +187,14 @@ a:hover {
   margin: auto;
 }
 .gallery1-in-frame {
-  background-image: url(https://www.apple.com/v/macbook-pro-13/c/images/overview/performance/perf_gallery_screen_photo__f8lhmvh5ye6i_large.jpg);
+  background-image: url(Macbook-Pro-13-Pic/perf_gallery_screen_photo__f8lhmvh5ye6i_large.jpg);
 }
 .img1-in-frame {
   width: 769px;
   height: 481px;
   background-size: 769px 481px;
   background-repeat: no-repeat;
-  background-image: url(https://www.apple.com/v/macbook-pro-13/c/images/overview/performance/perf_gallery_screen_photo__f8lhmvh5ye6i_large.jpg);
+  background-image: url(Macbook-Pro-13-Pic/perf_gallery_screen_photo__f8lhmvh5ye6i_large.jpg);
   position: absolute;
   top: 30px;
   left: 0;
@@ -224,7 +224,7 @@ button:focus {
   border-bottom: none;
 }
 .img-bg-chip {
-  background-image: url(https://www.apple.com/v/macbook-pro-13/c/images/overview/chip/chip_motherboard__cbmirasqheeu_small_2x.png);
+  background-image: url(Macbook-Pro-13-Pic/chip_motherboard__cbmirasqheeu_small_2x.png);
   position: absolute;
   background-size: cover;
   background-repeat: no-repeat;
@@ -235,7 +235,7 @@ button:focus {
   bottom: -50px;
 }
 .fog2-bg {
-  background-image: url(https://www.apple.com/v/macbook-pro-13/c/images/overview/performance/perf_gallery_table_glow__ujnicbb7i6a6_large.jpg);
+  background-image: url(Macbook-Pro-13-Pic/perf_gallery_table_glow__ujnicbb7i6a6_large.jpg);
   position: absolute;
   background-size: 2000px;
   background-position: center center;
@@ -254,7 +254,7 @@ button:focus {
   background-size: 2560px 120px;
   background-position: center center;
   background-repeat: no-repeat;
-  background-image: url(https://www.apple.com/v/macbook-pro-13/c/images/overview/thunderbolt/thunderbolt_hw__puai5jv3st6e_large.png);
+  background-image: url(Macbook-Pro-13-Pic/thunderbolt_hw__puai5jv3st6e_large.png);
   position: relative;
   margin: auto;
   text-align: center;
@@ -263,7 +263,7 @@ button:focus {
 }
 .fog3-bg {
   background-image: linear-gradient(transparent, #17171d),
-    url(https://www.apple.com/v/macbook-pro-13/c/images/overview/thunderbolt/thunderbolt_table_glow__ga7vb4hyfjue_large.jpg);
+    url(Macbook-Pro-13-Pic/thunderbolt_table_glow__ga7vb4hyfjue_large.jpg);
   position: absolute;
   background-size: 2560px 399px;
   background-position: center bottom;
@@ -279,7 +279,7 @@ button:focus {
 .fog4-bg {
   position: absolute;
   background-image: linear-gradient(transparent, transparent, #17171d),
-    url(https://www.apple.com/v/macbook-pro-13/c/images/overview/thunderbolt/thunderbolt_table_glow__ga7vb4hyfjue_large.jpg);
+    url(Macbook-Pro-13-Pic/thunderbolt_table_glow__ga7vb4hyfjue_large.jpg);
   background-size: 2000px;
   background-position: center;
   background-repeat: no-repeat;
@@ -294,7 +294,7 @@ button:focus {
 .fog5-bg {
   position: absolute;
   background-image: linear-gradient(to bottom, transparent, #17171d),
-    url(https://www.apple.com/v/macbook-pro-13/c/images/overview/sidecar/continuity_table_glow__f3wgtsiu1iuu_large.jpg);
+    url(Macbook-Pro-13-Pic/continuity_table_glow__f3wgtsiu1iuu_large.jpg);
   background-size: 1500px;
   background-position: center top;
   background-repeat: no-repeat;
@@ -307,14 +307,14 @@ button:focus {
   top: 225px;
 }
 .bg-mountain {
-  background-image: url(https://www.apple.com/v/macbook-pro-13/c/images/shared/tile_macos__eqcfqi9lz0qe_large.jpg);
+  background-image: url(Macbook-Pro-13-Pic/tile_macos__eqcfqi9lz0qe_large.jpg);
   height: 600px;
   background-size: 2560px 600px;
   background-repeat: no-repeat;
   background-position: center top;
 }
 .bg-product {
-  background-image: url(https://www.apple.com/v/macbook-pro-13/c/images/shared/tile_accessories__e8swhzllmyqi_large.jpg);
+  background-image: url(Macbook-Pro-13-Pic/tile_accessories__e8swhzllmyqi_large.jpg);
   height: 810px;
   background-size: 2560px 810px;
   background-repeat: no-repeat;
@@ -332,19 +332,19 @@ button:focus {
   height: 600px;
   background-size: 675px 600px;
   background-repeat: no-repeat;
-  background-image: url(https://www.apple.com/v/macbook-pro-13/c/images/shared/education__fkyb6fve4jmi_large.jpg);
+  background-image: url(Macbook-Pro-13-Pic/education__fkyb6fve4jmi_large.jpg);
   background-position: center bottom;
 }
 .mac-busi {
   height: 600px;
   background-size: 675px 600px;
   background-repeat: no-repeat;
-  background-image: url(https://www.apple.com/v/macbook-pro-13/c/images/shared/business__fjdhojmvk9im_large.jpg);
+  background-image: url(Macbook-Pro-13-Pic/business__fjdhojmvk9im_large.jpg);
   background-position: center bottom;
 }
 .fog6-bg {
   position: absolute;
-  background-image: url(https://www.apple.com/v/macbook-pro-13/c/images/shared/mbp_table_glow__gatk45y5d5e2_large.jpg);
+  background-image: url(Macbook-Pro-13-Pic/mbp_table_glow__gatk45y5d5e2_large.jpg);
   background-size: 1500px;
   background-position: center top;
   background-repeat: no-repeat;
@@ -393,7 +393,7 @@ button:focus {
     width: 349px;
     height: 208px;
     background-size: 349px 208px;
-    background-image: url(https://www.apple.com/v/macbook-pro-13/c/images/overview/performance/perf_gallery_hw__bdxj0rf7d3te_small_2x.png);
+    background-image: url(Macbook-Pro-13-Pic/perf_gallery_hw__bdxj0rf7d3te_small_2x.png);
     width: 100%;
     margin-left: -50%;
     background-position: top center;
@@ -442,7 +442,7 @@ button:focus {
   .fog4-bg {
     position: absolute;
     background-image: linear-gradient(transparent, transparent, #17171d),
-      url(https://www.apple.com/v/macbook-pro-13/c/images/overview/thunderbolt/thunderbolt_table_glow__ga7vb4hyfjue_large.jpg);
+      url(Macbook-Pro-13-Pic/thunderbolt_table_glow__ga7vb4hyfjue_large.jpg);
     background-size: 1500px;
     background-position: center;
     background-repeat: no-repeat;
