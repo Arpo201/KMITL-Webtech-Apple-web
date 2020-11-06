@@ -142,34 +142,34 @@ a:hover {
 .right-com {
   text-align: right;
 }
+.ex-text1 {
+  font-size: 44px;
+}
 
 .img1 {
   position: relative;
-  background-image: url(https://www.apple.com/th/iphone-12-pro/images/overview/hero/hero_endframe__e24jfrox7nu6_large.jpg);
+  background-image: url(iPhone-12-Pro-Pic/css-com-img1.jpg);
   width: 100%;
   height: 662px;
   background-size: 1352px 662px;
   background-position: 20vw;
   background-repeat: no-repeat;
 }
-.img3 {
-  width: 288px;
-  height: 566px;
-  background-size: 288px 566px;
-  background-repeat: no-repeat;
-  background-image: url(https://www.apple.com/v/iphone-12-pro/a/images/overview/design/design_compare_static__dxh2vl01z1ci_medium.jpg);
-}
-.ex-text1 {
-  font-size: 44px;
-}
-.img4 {
+.img2 {
   width: 100%;
   height: 990px;
   background-size: 1008px 990px;
   background-repeat: no-repeat;
-  background-image: url(https://www.apple.com/v/iphone-12-pro/a/images/overview/design/design_water_resistance__bx3cq2uzbzw2_large.jpg);
+  background-image: url(iPhone-12-Pro-Pic/css-com-img2.jpg);
   background-position: top right;
   position: absolute;
+}
+.img3 {
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-image: url(iPhone-12-Pro-Pic/css-com-img3.jpg);
+  background-size: cover;
 }
 .chart {
   background-image: radial-gradient(#619ccdaf, #005d7f09);
@@ -186,13 +186,6 @@ video {
 }
 .XDR-box-p {
   padding: 40px 60px 66px;
-}
-.img5 {
-  width: 100%;
-  height: 100vh;
-  background-repeat: no-repeat;
-  background-image: url(https://www.apple.com/v/iphone-12-pro/a/images/overview/ios/static_wallpaper__lucx86pfhxua_large.jpg);
-  background-size: cover;
 }
 .btn-orange {
   font-size: 12px;
@@ -253,11 +246,14 @@ video {
     text-align: center;
   }
   .img1 {
-    background-image: url(https://www.apple.com/th/iphone-12-pro/images/overview/hero/hero_endframe__e24jfrox7nu6_small_2x.jpg);
+    background-image: url(iPhone-12-Pro-Pic/css-phone-img1.jpg);
     width: 100%;
     height: 662px;
     background-size: 600px;
     background-position: center;
+  }
+  .img3 {
+    background-image: url(iPhone-12-Pro-Pic/css-phone-img3.jpg);
   }
   .ex-text1 {
     font-size: 32px;
@@ -272,8 +268,5 @@ video {
   }
   .XDR-box-p {
     padding: 16px 28px 40px;
-  }
-  .img5 {
-    background-image: url(https://www.apple.com/v/iphone-12-pro/a/images/overview/ios/intro_wallpaper__bngf0jq89tki_large.jpg);
   }
 }

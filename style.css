@@ -25,7 +25,7 @@
   font-size: 14px;
   font-weight: 200;
   line-height: 44px;
-  text-decoration: none;
+  text-decoration: none !important;
   transition: all 0.3s;
   color: #f5f5f7;
 }
@@ -43,7 +43,7 @@
 .search-icon:hover,
 .shop-icon:hover {
   opacity: 1;
-  color: #f5f5f7;
+  color: #f5f5f7 !important;
 }
 
 .nav-links {
