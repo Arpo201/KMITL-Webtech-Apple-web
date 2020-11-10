@@ -6,7 +6,7 @@ Home
 
 - MacBook Air
 - MacBook Pro รุ่น 13”
-- iMac ผีท
+- iMac
 
 ## iPad
 
